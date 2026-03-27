@@ -1,0 +1,29 @@
+{
+  "name": "exa-search-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "search": "tsx src/search.ts",
+    "deep": "tsx src/deep.ts",
+    "test_exa": "tsx src/test_exa.ts",
+    "test_firecrawl": "tsx src/test_firecrawl.ts",
+    "procurement": "tsx src/test_firecrawl.ts",
+    "start": "npm run search",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.18.0",
+    "dotenv": "^17.3.1",
+    "exa-js": "^2.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
