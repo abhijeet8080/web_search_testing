@@ -48,8 +48,8 @@ function logStage(stage: string, message: string, details?: unknown): void {
   console.error(`${line}\n${JSON.stringify(details, null, 2)}`);
 }
 
-const partNumber = process.env.PART_NUMBER ?? "ALTECH CBF12-S88S0-05BPUR CABLE";
-const manufacturerName = process.env.MANUFACTURER_NAME ?? "ALTECH";
+const partNumber = process.env.PART_NUMBER ?? "TEKTON SHA04101 1/4 INCH DRIVE (F) X 3/8 INCH (M) ADAPTER";
+const manufacturerName = process.env.MANUFACTURER_NAME ?? "TEKTON";
 const productQuery = `${partNumber} ${manufacturerName}`.trim();
 
 logStage("init", "Pipeline started", {
