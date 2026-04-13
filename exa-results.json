@@ -1,0 +1,925 @@
+{
+  "generatedAt": "2026-04-02T13:04:05.423Z",
+  "itemsFile": "D:\\Projects\\web_search_testing\\exa-search-test\\items.txt",
+  "resultsJsonPath": "D:\\Projects\\web_search_testing\\exa-search-test\\exa-results.json",
+  "results": [
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+          "manufacturerName": "PILZ"
+        },
+        "manufacturer": {
+          "name": "Pilz GmbH & Co. KG",
+          "website": "https://www.pilz.com",
+          "email": "info@pilz.de",
+          "phone": "+49 711 3409-0",
+          "HQ": "Felix-Wankel-Straße 2, 73760 Ostfildern, Germany"
+        },
+        "manufacturerDomain": "pilz.com",
+        "distributors": {
+          "fromManufacturerSite": [
+            {
+              "name": "Pilz Automation Safety L.P.",
+              "email": "info@pilzusa.com",
+              "website": "https://www.pilz.com/en-US",
+              "phone": "+1 734 354-0272",
+              "region": "USA",
+              "source": ""
+            },
+            {
+              "name": "Pilz India Pvt Ltd",
+              "email": "info@pilz.in",
+              "website": "https://www.pilz.com/en-IN",
+              "phone": "+91 20 69501100",
+              "region": "India",
+              "source": ""
+            },
+            {
+              "name": "Pilz Automation Technology",
+              "email": "sales@pilz.co.uk",
+              "website": "https://www.pilz.com/en-GB",
+              "phone": "+44 1536 460766",
+              "region": "United Kingdom",
+              "source": ""
+            },
+            {
+              "name": "Pilz Automation Safety Canada L.P.",
+              "email": "info@pilz.ca",
+              "website": "https://www.pilz.com/en-CA",
+              "phone": "+1 905 821 7459",
+              "region": "Canada",
+              "source": ""
+            },
+            {
+              "name": "皮尔磁工业自动化(上海)有限公司",
+              "email": "sales@pilz.com.cn",
+              "website": "https://www.pilz.com.cn",
+              "phone": "+86 21 60880878",
+              "region": "China",
+              "source": ""
+            }
+          ],
+          "fromOpenWeb": [
+            {
+              "name": "Göring GmbH",
+              "email": "info@goering-gmbh.de",
+              "website": "https://www.maschinensicherheit-goering.de",
+              "phone": "+49 9176 9895-0",
+              "region": "Germany",
+              "source": ""
+            },
+            {
+              "name": "皮尔磁工业自动化(上海)有限公司 (Pilz Industrial Automation Shanghai Co., Ltd.)",
+              "email": "sales@pilz.com.cn",
+              "website": "https://www.pilz.com.cn",
+              "phone": "+86 21 60880878",
+              "region": "China",
+              "source": ""
+            },
+            {
+              "name": "BPX",
+              "email": "N/A",
+              "website": "https://www.bpx.co.uk",
+              "phone": "N/A",
+              "region": "UK",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Pilz Automation Safety L.P.",
+              "email": "info@pilzusa.com",
+              "website": "https://www.pilz.com/en-US",
+              "phone": "+1 734 354-0272",
+              "region": "USA",
+              "source": "",
+              "address": "4000 - Robust safety sensor technology for rugged environments - Pilz Security Advisories now available in the international CSAF for",
+              "enrichmentSources": [
+                "https://www.pilz.com/en-US"
+              ]
+            },
+            {
+              "name": "Pilz India Pvt Ltd",
+              "email": "info@pilz.in",
+              "website": "https://www.pilz.com/en-IN",
+              "phone": "+91 20 69501100",
+              "region": "India",
+              "source": "",
+              "address": "4000 - Robust safety sensor technology for rugged environments - Pilz Security Advisories now available in the international CSAF for",
+              "enrichmentSources": [
+                "https://www.pilz.com/en-IN"
+              ]
+            },
+            {
+              "name": "Pilz Automation Technology",
+              "email": "sales@pilz.co.uk",
+              "website": "https://www.pilz.com/en-GB",
+              "phone": "+44 1536 460766",
+              "region": "United Kingdom",
+              "source": "",
+              "address": "4000 - Robust safety sensor technology for rugged environments - Pilz Security Advisories now available in the international CSAF for",
+              "enrichmentSources": [
+                "https://www.pilz.com/en-GB"
+              ]
+            },
+            {
+              "name": "Pilz Automation Safety Canada L.P.",
+              "email": "info@pilz.ca",
+              "website": "https://www.pilz.com/en-CA",
+              "phone": "+1 905 821 7459",
+              "region": "Canada",
+              "source": "",
+              "address": "4000 - Robust safety sensor technology for rugged environments - Pilz Security Advisories now available in the international CSAF for",
+              "enrichmentSources": [
+                "https://www.pilz.com/en-CA"
+              ]
+            },
+            {
+              "name": "皮尔磁工业自动化(上海)有限公司",
+              "email": "sales@pilz.com.cn",
+              "website": "https://www.pilz.com.cn",
+              "phone": "+86 21 60880878",
+              "region": "China",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.pilz.com.cn/"
+              ]
+            },
+            {
+              "name": "Göring GmbH",
+              "email": "info@goering-gmbh.de",
+              "website": "https://www.maschinensicherheit-goering.de",
+              "phone": "+49 9176 9895-0",
+              "region": "Germany",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.maschinensicherheit-goering.de/",
+                "https://www.maschinensicherheit-goering.de/contact",
+                "https://www.maschinensicherheit-goering.de/contact-us"
+              ]
+            },
+            {
+              "name": "皮尔磁工业自动化(上海)有限公司 (Pilz Industrial Automation Shanghai Co., Ltd.)",
+              "email": "sales@pilz.com.cn",
+              "website": "https://www.pilz.com.cn",
+              "phone": "+86 21 60880878",
+              "region": "China",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.pilz.com.cn/"
+              ]
+            },
+            {
+              "name": "BPX",
+              "email": "N/A",
+              "website": "https://www.bpx.co.uk",
+              "phone": "N/A",
+              "region": "UK",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.bpx.co.uk/"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50, EATON, 05146555-5591 / 5SC750I",
+          "manufacturerName": "EATON CORPORATION"
+        },
+        "manufacturer": {
+          "name": "Eaton Corporation",
+          "website": "https://www.eaton.com",
+          "email": "custsvc@powerprosinc.com",
+          "phone": "+1 (440) 523-5000",
+          "HQ": "1000 Eaton Boulevard, Cleveland, OH 44122, USA"
+        },
+        "manufacturerDomain": "eaton.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "TEKA 9412000002, FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH: 1200MM, INCLUDES FASTENING SCREW",
+          "manufacturerName": "TEKA"
+        },
+        "manufacturer": {
+          "name": "TEKA Maschinenbau GmbH",
+          "website": "https://www.teka.de",
+          "email": "info@teka-maschinenbau.de",
+          "phone": "+49 (0) 6323 809 0",
+          "HQ": "In den Seewiesen 2, D-67480 Edenkoben, Germany"
+        },
+        "manufacturerDomain": "teka.de",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT, 1000 GRAM",
+          "manufacturerName": "MCMASTER CARR"
+        },
+        "manufacturer": {
+          "name": "Troemner, LLC",
+          "website": "https://www.troemner.com",
+          "email": "Unknown",
+          "phone": "Unknown",
+          "HQ": "Thorofare, NJ"
+        },
+        "manufacturerDomain": "troemner.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MCMASTER-CARR K2535-1 TIG Welder",
+          "manufacturerName": "MCMASTER CARR"
+        },
+        "manufacturer": {
+          "name": "Lincoln Electric",
+          "website": "https://www.lincolnelectric.com",
+          "email": "contactus@lincolnelectric.com",
+          "phone": "+1-888-935-3877",
+          "HQ": "22800 Saint Clair Avenue, Cleveland, OH 44117, USA"
+        },
+        "manufacturerDomain": "lincolnelectric.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "VENTURE LIGHTING F73190,  LAMP, MP 400W/ED37/PS/BU/950",
+          "manufacturerName": "VENTURE LIGHTINGS"
+        },
+        "manufacturer": {
+          "name": "Venture Lighting International Inc",
+          "website": "https://www.venturelighting.com",
+          "email": "centralorders@venturelighting.com",
+          "phone": "800-451-2606",
+          "HQ": "32000 Aurora Road Suite A, Solon, OH 44139, United States"
+        },
+        "manufacturerDomain": "venturelighting.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "LEESON ELECTRIC C42D17FK1C DIRECT CURRENT DC MOTOR-SCR RATED - PERMANENT MAGNET, BRUSHED, 90 V, 1750 RPM RPM, TEFC(TOTALLY ENCLOSED FAN COOLED) (MPN 098000.00)",
+          "manufacturerName": "LEESON ELECTRIC"
+        },
+        "manufacturer": {
+          "name": "Regal Rexnord Corporation",
+          "website": "https://www.regalrexnord.com/brands/leeson",
+          "email": "N/A",
+          "phone": "+1 (262) 377-8810",
+          "HQ": "Grafton, WI, United States"
+        },
+        "manufacturerDomain": "regalrexnord.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Motion Industries",
+              "email": "customerservice@motion.com",
+              "website": "https://www.motion.com",
+              "phone": "(800) 526-9328",
+              "region": "North America",
+              "source": ""
+            },
+            {
+              "name": "Electric Motor Wholesale",
+              "email": "N/A",
+              "website": "https://www.electricmotorwholesale.com",
+              "phone": "N/A",
+              "region": "USA",
+              "source": ""
+            },
+            {
+              "name": "Rexel / Platt Electric Supply",
+              "email": "N/A",
+              "website": "https://www.platt.com",
+              "phone": "206-781-9560",
+              "region": "USA (Seattle)",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Motion Industries",
+              "email": "customerservice@motion.com",
+              "website": "https://www.motion.com",
+              "phone": "(800) 526-9328",
+              "region": "North America",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.motion.com/",
+                "https://www.motion.com/contact",
+                "https://www.motion.com/contact-us"
+              ]
+            },
+            {
+              "name": "Electric Motor Wholesale",
+              "email": "N/A",
+              "website": "https://www.electricmotorwholesale.com",
+              "phone": "N/A",
+              "region": "USA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.electricmotorwholesale.com/"
+              ]
+            },
+            {
+              "name": "Rexel / Platt Electric Supply",
+              "email": "N/A",
+              "website": "https://www.platt.com",
+              "phone": "206-781-9560",
+              "region": "USA (Seattle)",
+              "source": "",
+              "address": "00 PM 10605 SW Allen Blvd Beaverton, OR 97005 (503) 641-6121 Details View Other Locations ### Free Delivery We offer free delivery from most loca",
+              "enrichmentSources": [
+                "https://www.platt.com/",
+                "https://www.platt.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "3M SCOTCH BRITE SIZE WIDTH 6\" X LENGTH 30FT/ROLL",
+          "manufacturerName": "3M SCOTCH BRITE"
+        },
+        "manufacturer": {
+          "name": "3M Company",
+          "website": "https://www.3m.com",
+          "email": "investorrelations@3M.com",
+          "phone": "1-888-3M-HELPS (1-888-364-3577)",
+          "HQ": "3M Center, St. Paul, MN 55144-1000, USA"
+        },
+        "manufacturerDomain": "3m.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "3M DBI-SALA 1103071,3M DBI-SALA EXOFIT NEX COMFORT ARC FLASH VEST POSITIONING SAFETY HARNESS 1103071, MEDIUM",
+          "manufacturerName": "3M DBI-SALA"
+        },
+        "manufacturer": {
+          "name": "3M",
+          "website": "https://www.3m.com",
+          "email": "Not found in sources",
+          "phone": "1-800-328-1667",
+          "HQ": "United States"
+        },
+        "manufacturerDomain": "3m.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "CONCHALU, S.L.",
+              "email": "conchalu@conchalu.com",
+              "website": "https://www.conchalu.es",
+              "phone": "945 226 293",
+              "region": "Spain",
+              "source": ""
+            },
+            {
+              "name": "Saf-T-Gard International, Inc.",
+              "email": "info@saftgard.com",
+              "website": "https://www.saftgard.com",
+              "phone": "",
+              "region": "United States",
+              "source": ""
+            },
+            {
+              "name": "Enviro Safety Products",
+              "email": "sales@envirosafetyproducts.com",
+              "website": "https://www.envirosafetyproducts.com",
+              "phone": "",
+              "region": "United States",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "CONCHALU, S.L.",
+              "email": "conchalu@conchalu.com",
+              "website": "https://www.conchalu.es",
+              "phone": "945 226 293",
+              "region": "Spain",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.conchalu.es/"
+              ]
+            },
+            {
+              "name": "Saf-T-Gard International, Inc.",
+              "email": "info@saftgard.com",
+              "website": "https://www.saftgard.com",
+              "phone": "1-800-548",
+              "region": "United States",
+              "source": "",
+              "address": "1 847-291-1600 USAToll-Free 1-800-548-GARD (4273) Fax:+1 847-291-1610 USAToll-Free 1-888-548-GARD (4273) World Headquarters and Mailing Address:Saf-T-Gard Interna",
+              "enrichmentSources": [
+                "https://www.saftgard.com/",
+                "https://www.saftgard.com/contact",
+                "https://www.saftgard.com/contact-us"
+              ]
+            },
+            {
+              "name": "Enviro Safety Products",
+              "email": "sales@envirosafetyproducts.com",
+              "website": "https://www.envirosafetyproducts.com",
+              "phone": "7100014310",
+              "region": "United States",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.envirosafetyproducts.com/",
+                "https://www.envirosafetyproducts.com/contact"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "BLACK DECKER High Velocity Floor Fan, 15.6\" Diameter Freestanding Fan, 5 Plastic Blades, 3-Speeds, 90-Degree Tilt Adjustment, For Use In Bedroom, Home or Office, 5.5 lbs., Gray/Black, BFF16B",
+          "manufacturerName": "BLACK AND DECKER"
+        },
+        "manufacturer": {
+          "name": "Equity Brands",
+          "website": "https://www.equitybrands.com",
+          "email": "N/A",
+          "phone": "N/A",
+          "HQ": "N/A"
+        },
+        "manufacturerDomain": "equitybrands.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "PARKER RX23-005-L2 BAYSIDE RIGHT ANGLE GEARHEAD",
+          "manufacturerName": "PARKER"
+        },
+        "manufacturer": {
+          "name": "Parker Bayside",
+          "website": "https://divapps.parker.com/divapps/emn/prodcomp/bayside/BMGHome/fc9d97d518f2344e85256a85005a8391/f697e878cce595dd8525683b007b733102ec.html?OpenDocument=",
+          "email": "N/A",
+          "phone": "+1 (724) 861-8200",
+          "HQ": "27 Seaview Blvd, Port Washington, NY 11050, USA"
+        },
+        "manufacturerDomain": "divapps.parker.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "MotionUSA",
+              "email": "sales@motionusa.com",
+              "website": "https://motionusa.com",
+              "phone": "(800) 463-5959",
+              "region": "USA",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "MotionUSA",
+              "email": "sales@motionusa.com",
+              "website": "https://motionusa.com",
+              "phone": "(800) 463-5959",
+              "region": "USA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://motionusa.com/",
+                "https://motionusa.com/contact",
+                "https://motionusa.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "BONDHUS 17150 1.5MM ALLEN KEY (SHORT ,CHROME PLATED)",
+          "manufacturerName": "BONDHUS"
+        },
+        "manufacturer": {
+          "name": "Bondhus Corporation",
+          "website": "https://www.bondhus.com",
+          "email": "cservice@bondhus.com",
+          "phone": "800-328-8310",
+          "HQ": "1400 E. Broadway, P.O. Box 660, Monticello, Minnesota 55362, USA"
+        },
+        "manufacturerDomain": "bondhus.com",
+        "distributors": {
+          "fromManufacturerSite": [
+            {
+              "name": "SALCO",
+              "email": "info@salco.eu",
+              "website": "www.salco.eu",
+              "phone": "+32 (0)3 340 47 00",
+              "region": "Belgium",
+              "source": ""
+            },
+            {
+              "name": "DOCAP DISTRIBUTION INC",
+              "email": "sales@docap.com",
+              "website": "www.docap.com",
+              "phone": "905 673 0000",
+              "region": "Canada",
+              "source": ""
+            }
+          ],
+          "fromOpenWeb": [
+            {
+              "name": "Rowland Tools Limited",
+              "email": "sales@rowland-tools.co.uk",
+              "website": "https://www.rowland-tools.co.uk",
+              "phone": "01494 534755",
+              "region": "United Kingdom",
+              "source": ""
+            },
+            {
+              "name": "DOCAP DISTRIBUTION INC",
+              "email": "sales@docap.com",
+              "website": "https://www.docap.com",
+              "phone": "905 673 0000",
+              "region": "Canada",
+              "source": ""
+            },
+            {
+              "name": "Sutton Tools",
+              "email": "N/A",
+              "website": "https://www.suttontools.com.au",
+              "phone": "61 3 9280 0800",
+              "region": "Australia",
+              "source": ""
+            },
+            {
+              "name": "SALCO",
+              "email": "info@salco.eu",
+              "website": "https://www.salco.eu",
+              "phone": "+32 (0)3 340 47 00",
+              "region": "Belgium",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "SALCO",
+              "email": "info@salco.eu",
+              "website": "www.salco.eu",
+              "phone": "+32 (0)3 340 47 00",
+              "region": "Belgium",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.salco.eu/"
+              ]
+            },
+            {
+              "name": "DOCAP DISTRIBUTION INC",
+              "email": "sales@docap.com",
+              "website": "www.docap.com",
+              "phone": "905 673 0000",
+              "region": "Canada",
+              "source": "",
+              "address": "0000 2870 Slough St, Mississauga, On L4T 1G3 Edmonton Western Canadian Warehouse Phone: (780) 453-5895 16650-114th St, Edmonton, AB, T5M 3R",
+              "enrichmentSources": [
+                "https://www.docap.com/",
+                "https://www.docap.com/contact"
+              ]
+            },
+            {
+              "name": "Rowland Tools Limited",
+              "email": "sales@rowland-tools.co.uk",
+              "website": "https://www.rowland-tools.co.uk",
+              "phone": "01494 534755",
+              "region": "United Kingdom",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.rowland-tools.co.uk/",
+                "https://www.rowland-tools.co.uk/contact"
+              ]
+            },
+            {
+              "name": "Sutton Tools",
+              "email": "N/A",
+              "website": "https://www.suttontools.com.au",
+              "phone": "61 3 9280 0800",
+              "region": "Australia",
+              "source": "",
+              "address": "",
+              "enrichmentSources": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MOLEX 0039013028 2 WAY MINI FIT CONNECTOR M/F",
+          "manufacturerName": "MOLEX"
+        },
+        "manufacturer": {
+          "name": "Molex",
+          "website": "https://www.molex.com",
+          "email": "N/A",
+          "phone": "+1 800-786-6539",
+          "HQ": "2222 Wellington Court, Lisle, IL 60532, USA"
+        },
+        "manufacturerDomain": "molex.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "DigiKey",
+              "email": "sales@digikey.com",
+              "website": "https://www.digikey.com",
+              "phone": "+1-800-344-4539",
+              "region": "Global",
+              "source": ""
+            },
+            {
+              "name": "Mouser Electronics",
+              "email": "europe@mouser.com",
+              "website": "https://www.mouser.com",
+              "phone": "+49 89 520462110",
+              "region": "Europe",
+              "source": ""
+            },
+            {
+              "name": "Arrow Electronics",
+              "email": "contactus@arrow.com",
+              "website": "https://www.arrow.com",
+              "phone": "N/A",
+              "region": "Global",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "DigiKey",
+              "email": "sales@digikey.com",
+              "website": "https://www.digikey.com",
+              "phone": "+1-800-344-4539",
+              "region": "Global",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.digikey.com/"
+              ]
+            },
+            {
+              "name": "Mouser Electronics",
+              "email": "europe@mouser.com",
+              "website": "https://www.mouser.com",
+              "phone": "+49 89 520462110",
+              "region": "Europe",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mouser.com/",
+                "https://www.mouser.com/contact",
+                "https://www.mouser.com/contact-us"
+              ]
+            },
+            {
+              "name": "Arrow Electronics",
+              "email": "contactus@arrow.com",
+              "website": "https://www.arrow.com",
+              "phone": "N/A",
+              "region": "Global",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.arrow.com/"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "STMICROELECTRONICS 208223800, COML,IC,VOLTAGE REGULATORS,STMICROELECTRONICS,L7805CV",
+          "manufacturerName": "STMICROELECTRONICS"
+        },
+        "manufacturer": {
+          "name": "STMicroelectronics",
+          "website": "https://www.st.com",
+          "email": "investor.relations@st.com",
+          "phone": "+41 22 929 29 29",
+          "HQ": "39, Chemin du Champ-des-Filles, 1228 Plan-les-Ouates, Geneva, Switzerland"
+        },
+        "manufacturerDomain": "st.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "DigiKey Electronics",
+              "email": "customer.service@digikey.com",
+              "website": "https://www.digikey.com",
+              "phone": "1 (800) 344-4539",
+              "region": "Global (HQ USA)",
+              "source": ""
+            },
+            {
+              "name": "Arrow Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.arrow.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": ""
+            },
+            {
+              "name": "Avnet",
+              "email": "Not found in sources",
+              "website": "https://www.avnet.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": ""
+            },
+            {
+              "name": "Future Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.futureelectronics.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": ""
+            },
+            {
+              "name": "Mouser Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.mouser.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "DigiKey Electronics",
+              "email": "customer.service@digikey.com",
+              "website": "https://www.digikey.com",
+              "phone": "1 (800) 344-4539",
+              "region": "Global (HQ USA)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.digikey.com/"
+              ]
+            },
+            {
+              "name": "Arrow Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.arrow.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.arrow.com/"
+              ]
+            },
+            {
+              "name": "Avnet",
+              "email": "Not found in sources",
+              "website": "https://www.avnet.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.avnet.com/",
+                "https://www.avnet.com/contact"
+              ]
+            },
+            {
+              "name": "Future Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.futureelectronics.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": "",
+              "address": "16711 Trans-Canada Highway Kirkland, Quebec, Canada H9H 3L1 Tel",
+              "enrichmentSources": [
+                "https://www.futureelectronics.com/",
+                "https://www.futureelectronics.com/contact-us"
+              ]
+            },
+            {
+              "name": "Mouser Electronics",
+              "email": "Not found in sources",
+              "website": "https://www.mouser.com",
+              "phone": "Not found in sources",
+              "region": "Global",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mouser.com/",
+                "https://www.mouser.com/contact",
+                "https://www.mouser.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "THERMAL TRANSFER PRODUCTS 100726262,COML,HEATER,THERMAL,SSC-624-1.3-4-F",
+          "manufacturerName": "THERMAL TRANSFER"
+        },
+        "manufacturer": {
+          "name": "Thermal Transfer Products",
+          "website": "https://www.thermaltransferproducts.com",
+          "email": "Sales@HeatX.com",
+          "phone": "1-805-484-2992",
+          "HQ": "Ronkonkoma, NY"
+        },
+        "manufacturerDomain": "thermaltransferproducts.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    }
+  ]
+}

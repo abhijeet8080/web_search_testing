@@ -1,0 +1,963 @@
+{
+  "generatedAt": "2026-04-02T15:54:27.067Z",
+  "updatedAt": "2026-04-02T15:58:05.694Z",
+  "itemsFile": "D:\\Projects\\web_search_testing\\exa-search-test\\items.txt",
+  "resultsJsonPath": "D:\\Projects\\web_search_testing\\exa-search-test\\firecrawl-results.json",
+  "results": [
+    {
+      "success": true,
+      "input": {
+        "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+        "manufacturerName": "PILZ"
+      },
+      "output": {
+        "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+        "manufacturer": {
+          "name": "Pilz GmbH & Co. KG",
+          "website": "https://www.pilz.com",
+          "email": "info@pilz.de",
+          "phone": "+49 711 3409-0"
+        },
+        "distributors": [
+          {
+            "name": "Pilz GmbH & Co. KG",
+            "email": "info@pilz.de",
+            "phone": "+49 711 3409-0",
+            "website": "https://www.pilz.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Technical Support",
+            "email": "support@pilz.com",
+            "phone": "+49 711 3409 444",
+            "website": "https://www.pilz.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz USA",
+            "email": "sales@pilzusa.com",
+            "phone": "+1 877-",
+            "website": "https://www.pilzusa.com",
+            "region": "United States",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Pilz Canada",
+            "email": "info@pilz.ca",
+            "phone": "+1 888-315-",
+            "website": "https://www.pilz.ca",
+            "region": "Canada",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Pilz UK",
+            "email": "info@pilzuk.com",
+            "phone": "+44 1536 460866",
+            "website": "https://www.pilzuk.com",
+            "region": "United Kingdom",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Pilz Brazil",
+            "email": "info@pilzbrazil.com",
+            "phone": "+55 11 4942-7032",
+            "website": "https://www.pilzbrazil.com",
+            "region": "Brazil",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Pilz Automation Safety L.P.",
+            "email": "info@pilzusa.com",
+            "phone": "+1 734 354-0272",
+            "website": "https://www.pilz.com/en-US",
+            "region": "USA",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "eibmarkt®",
+            "email": "sales@eibmarkt.de",
+            "phone": "",
+            "website": "https://www.eibabo.com",
+            "region": "Worldwide",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Pilz Americas",
+            "email": "",
+            "phone": "+55 11 4942-7032",
+            "website": "https://www.pilz.com",
+            "region": "Brazil",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 3,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Europe",
+            "email": "",
+            "phone": "+358 10 3224030",
+            "website": "https://www.pilz.com",
+            "region": "Finland",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 3,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Used-Machines",
+            "email": "",
+            "phone": "+49 4402 ...",
+            "website": "https://www.used-machines.com",
+            "region": "Germany, Austria, Switzerland, United States, Great Britain, France, Belgium, Spain, Mexico, Italy, Netherlands, Poland, Russian Federation, Belarus, Ukraine, Estonia, Turkey, New Zealand, Ireland, Czech Republic, Denmark, Finland, Sweden, Norway, Luxembourg, Greece, Lithuania, Latvia, Iceland, Portugal, Brazil, Venezuela, Argentina, Hungary, Slovakia, Romania, Moldova, Slovenia, Serbia, Montenegro, Albania, Croatia, Bulgaria, Macedonia, Bosnia and Herzegovina, Israel, Egypt, Morocco, India, Indonesia, South Korea, Japan, Thailand, Malaysia, Vietnam, China (People's Republic of China), Taiwan, Iran, Bangladesh",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 3,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "4D Controls",
+            "email": "",
+            "phone": "",
+            "website": "https://www.4dcontrols.com.au",
+            "region": "Australia, USA",
+            "isAuthorized": false,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Hyin-2012",
+            "email": "",
+            "phone": "",
+            "website": "https://www.ebay.com/str/hyin2012?_trksid=p4429486.m168239.l149267",
+            "region": "Worldwide",
+            "isAuthorized": false,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "ydy-Automation",
+            "email": "",
+            "phone": "7000259124",
+            "website": "https://www.ebay.com/str/ydyautomation?_trksid=p4429486.m145687.l149266",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 12,
+          "extractionTimeMs": 114894,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "deep_scrape",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Pilz – Safe automation, automation technology\" \"X4\" authorized distributor emai",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"X4\" Pilz – Safe automation, automation technology buy reseller contact phone",
+              "results": 7,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"X4\" \"Pilz – Safe automation, automation",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Pilz – Safe automation, automation technology X4 distributor network",
+              "results": 7,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://pilz.com",
+            "[1] https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+            "[1] https://www.ebay.com/itm/388928865779",
+            "[1] https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+            "[1] https://www.ebay.com/itm/226536535373",
+            "[1] https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+            "https://www.pilz.com/en-US/company/pilz-partner/distributors"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://pilz.com",
+            "[8] https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+            "[8] https://www.pilz.com/en-US/company/pilz-partner/distributors",
+            "[1] https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+            "[1] https://www.ebay.com/itm/388928865779",
+            "[1] https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+            "[1] https://www.ebay.com/itm/226536535373",
+            "[1] https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.pilz.com/en-US/company/pilz-partner/distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.ebay.com/itm/388928865779",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://pilz.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 21
+            },
+            {
+              "url": "https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 5
+            },
+            {
+              "url": "https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.ebay.com/itm/226536535373",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.used-machines.com/pilz-pze+x4+24vdc+4n%2Fo/gm-196-5357",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://coworx.no/24VDC-4-Normally-Open-Contacts-22-5mm-Width-New-Part-1188010",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.pilz.com/en-US",
+              "source": "search",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 33,
+          "afterValidate": {
+            "total": 15,
+            "withEmail": 8
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [
+            {
+              "distributor": "Pilz Americas",
+              "domain": "pilz.com",
+              "contactUrl": "https://www.pilz.com/en-BE/eshop/Relay-modules/Safety-relays-protection-relays/PNOZsigma-safety-relays/Contact-expansions/c/0010000200700380GA"
+            },
+            {
+              "distributor": "Pilz Europe",
+              "domain": "pilz.com",
+              "contactUrl": "https://www.pilz.com/en-BE/eshop/Relay-modules/Safety-relays-protection-relays/PNOZsigma-safety-relays/Contact-expansions/c/0010000200700380GA"
+            },
+            {
+              "distributor": "Pilz Asia Pacific",
+              "domain": "pilz.com",
+              "contactUrl": "https://pilz.com"
+            },
+            {
+              "distributor": "Used-Machines",
+              "domain": "used-machines.com",
+              "contactUrl": "https://www.used-machines.com/contact"
+            },
+            {
+              "distributor": "4D Controls",
+              "domain": "4dcontrols.com.au",
+              "contactUrl": "https://4dcontrols.com.au"
+            },
+            {
+              "distributor": "Hyin-2012",
+              "domain": "ebay.com",
+              "contactUrl": "https://partnernetwork.ebay.com/resources/contact-support"
+            },
+            {
+              "distributor": "ydy-Automation",
+              "domain": "ebay.com",
+              "contactUrl": "https://ebay.com"
+            }
+          ],
+          "enrichmentSummaries": [
+            {
+              "distributor": "Pilz Asia Pacific",
+              "foundEmail": "info@pilz.de",
+              "foundPhone": "+65 6829 2920"
+            },
+            {
+              "distributor": "ydy-Automation",
+              "foundEmail": "",
+              "foundPhone": "7000259124"
+            },
+            {
+              "distributor": "Pilz Europe",
+              "foundEmail": "",
+              "foundPhone": "+358 10 3224030"
+            },
+            {
+              "distributor": "Used-Machines",
+              "foundEmail": "",
+              "foundPhone": "+49 4402 ..."
+            },
+            {
+              "distributor": "Hyin-2012",
+              "foundEmail": "",
+              "foundPhone": ""
+            },
+            {
+              "distributor": "Pilz Americas",
+              "foundEmail": "",
+              "foundPhone": "+55 11 4942-7032"
+            },
+            {
+              "distributor": "4D Controls",
+              "foundEmail": "",
+              "foundPhone": ""
+            }
+          ],
+          "afterLayer4": {
+            "total": 15,
+            "withEmail": 9
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "reason": "Count 9 >= threshold 3",
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 15,
+          "topScores": [
+            "Pilz GmbH & Co. KG [6] info@pilz.de",
+            "Pilz Technical Support [6] support@pilz.com",
+            "Pilz USA [6] sales@pilzusa.com",
+            "Pilz Canada [6] info@pilz.ca",
+            "Pilz UK [6] info@pilzuk.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+          "normalizedManufacturer": "PILZ",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"PILZ\" \"X4\" authorized distributor email contact",
+            "\"X4\" PILZ buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"X4\" \"PILZ\" distributor",
+            "PILZ X4 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50, EATON, 05146555-5591 / 5SC750I",
+        "manufacturerName": "EATON CORPORATION"
+      },
+      "output": {
+        "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50 EATON 05146555-5591 / 5SC750I",
+        "manufacturer": {
+          "name": "Eaton",
+          "website": "https://www.eaton.com",
+          "email": "sales@eaton.com",
+          "phone": ""
+        },
+        "distributors": [
+          {
+            "name": "Eaton",
+            "email": "sales@eaton.com",
+            "phone": "",
+            "website": "https://www.eaton.com",
+            "region": "Africa, Asia, Central America and Caribbean, Europe, Middle East, North America, Oceania, South America",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 5,
+            "sourceLayer": "manufacturer_known"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 1,
+          "extractionTimeMs": 6181,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Electronic components contact information\" \"C-H5SC750I\" authorized distributor ",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"C-H5SC750I\" \"Electronic components cont",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"C-H5SC750I\" Electronic components contact information buy reseller contact phon",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Electronic components contact information C-H5SC750I distributor network",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://eaton.com"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://eaton.com"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://eaton.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 1,
+          "afterValidate": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "reason": "Only 1 distributor(s); minimum 2 required for agent",
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 1,
+          "topScores": [
+            "Eaton [5] sales@eaton.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50 EATON 05146555-5591 / 5SC750I",
+          "normalizedManufacturer": "EATON CORPORATION",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"EATON CORPORATION\" \"C-H5SC750I\" authorized distributor email contact",
+            "\"C-H5SC750I\" EATON CORPORATION buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"C-H5SC750I\" \"EATON CORPORATION\" distributor",
+            "EATON CORPORATION C-H5SC750I distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "TEKA 9412000002, FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH: 1200MM, INCLUDES FASTENING SCREW",
+        "manufacturerName": "TEKA"
+      },
+      "output": {
+        "partNumber": "TEKA 9412000002 FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH 1200MM INCLUDES FASTENING SCREW",
+        "manufacturer": {
+          "name": "Customer Services – Official Technical Support",
+          "website": "https://teka.com",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [
+          {
+            "name": "Telkonet",
+            "email": "sales@telkonet.com",
+            "phone": "+1 414-302-2299",
+            "website": "https://telkonet.com",
+            "region": "United States",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "ADI",
+            "email": "CSRMB@adiglobal.com",
+            "phone": "+1-866-424-4489",
+            "website": "https://www.adiglobal.com",
+            "region": "USA",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "VDA Group S.p.A. a Socio Unico",
+            "email": "ukenquiries@vdagroup.com",
+            "phone": "+39 0434 516 111",
+            "website": "",
+            "region": "Italy",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "VDA Middle East FZ LLC",
+            "email": "info_mea@vdagroup.com",
+            "phone": "+971 4 3914416",
+            "website": "",
+            "region": "United Arab Emirates",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "VDA Asia Pacific LTD",
+            "email": "info_ap@vdagroup.com",
+            "phone": "+66 (0) 2 260 6213-6",
+            "website": "",
+            "region": "Thailand",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Dover Fueling Solutions",
+            "email": "sales@doverfuelsolutions.com",
+            "phone": "",
+            "website": "https://www.doverfuelingsolutions.com",
+            "region": "North America",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "True Manufacturing",
+            "email": "service@truemfg.com",
+            "phone": "+1-855-372-1368",
+            "website": "https://www.truemfg.com/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 8,
+          "extractionTimeMs": 44605,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Customer Services – Official Technical Support\" \"9412000002\" authorized distrib",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Customer Services – Official Technical Support 9412000002 distributor network",
+              "results": 7,
+              "topUrls": []
+            },
+            {
+              "query": "\"9412000002\" Customer Services – Official Technical Support buy reseller contact",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"9412000002\" \"Customer Services – Offici",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://teka.com",
+            "[1] https://telkonet.com/contact-us/",
+            "[1] https://www.doverfuelingsolutions.com/na/en/contact-us.html",
+            "[1] https://www.truemfg.com/support/technical/",
+            "[1] https://automation.honeywell.com/us/en/services/warehouse-automation/24x7-technical-support",
+            "[1] https://www.snapav.com/shop/en/snapav/contact"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://teka.com",
+            "[1] https://telkonet.com/contact-us/",
+            "[1] https://www.doverfuelingsolutions.com/na/en/contact-us.html",
+            "[1] https://www.truemfg.com/support/technical/",
+            "[1] https://automation.honeywell.com/us/en/services/warehouse-automation/24x7-technical-support",
+            "[1] https://www.snapav.com/shop/en/snapav/contact",
+            "[1] https://vendnetusa.com/pages/contact-us?srsltid=AfmBOopwdVgAUVSoBO9W8n12qeRCuWyoIeNa05hnjib9mdc56DKWPZLr",
+            "[1] https://www.belden.com/support/contact-us"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://www.doverfuelingsolutions.com/na/en/contact-us.html",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.truemfg.com/support/technical/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://telkonet.com/contact-us/",
+              "source": "search",
+              "distributorsFound": 5
+            },
+            {
+              "url": "https://automation.honeywell.com/us/en/services/warehouse-automation/24x7-technical-support",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.snapav.com/shop/en/snapav/contact",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.belden.com/support/contact-us",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://vendnetusa.com/pages/contact-us?srsltid=AfmBOopwdVgAUVSoBO9W8n12qeRCuWyoIeNa05hnjib9mdc56DKWPZLr",
+              "source": "search",
+              "distributorsFound": 0
+            }
+          ],
+          "rawDistributorCount": 8,
+          "afterValidate": {
+            "total": 7,
+            "withEmail": 7
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 7,
+            "withEmail": 7
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "reason": "Count 7 >= threshold 3",
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 7,
+          "topScores": [
+            "Telkonet [6] sales@telkonet.com",
+            "ADI [6] CSRMB@adiglobal.com",
+            "VDA Group S.p.A. a Socio Unico [5] ukenquiries@vdagroup.com",
+            "VDA Middle East FZ LLC [5] info_mea@vdagroup.com",
+            "VDA Asia Pacific LTD [5] info_ap@vdagroup.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "TEKA 9412000002 FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH 1200MM INCLUDES FASTENING SCREW",
+          "normalizedManufacturer": "TEKA",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"TEKA\" \"9412000002\" authorized distributor email contact",
+            "\"9412000002\" TEKA buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"9412000002\" \"TEKA\" distributor",
+            "TEKA 9412000002 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT, 1000 GRAM",
+        "manufacturerName": "MCMASTER CARR"
+      },
+      "output": {
+        "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT 1000 GRAM",
+        "manufacturer": {
+          "name": "McMaster-Carr",
+          "website": "https://www.mcmaster.com",
+          "email": "sales@mcmaster.com",
+          "phone": "+1-630-833-0300"
+        },
+        "distributors": [
+          {
+            "name": "McMaster-Carr",
+            "email": "sales@mcmaster.com",
+            "phone": "+1-630-833-0300",
+            "website": "https://www.mcmaster.com",
+            "region": "USA",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 8,
+          "extractionTimeMs": 52793,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"1777T31\" McMaster buy reseller contact phone",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"McMaster\" \"1777T31\" authorized distributor email contact",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "McMaster 1777T31 distributor network",
+              "results": 6,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"1777T31\" \"McMaster\" distributor",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://mcmaster.com",
+            "[1] https://www.mcmaster.com/",
+            "[1] https://www.mcmaster.com/products/y-distributors/",
+            "[1] https://www.mcmaster.com/products/air-distributors/",
+            "[1] https://www.mcmaster.com/products/distribution-blocks/",
+            "[1] https://www.mcmaster.com/products/distribution-bars/"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.mcmaster.com/products/y-distributors"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://mcmaster.com",
+            "[8] https://www.mcmaster.com/products/y-distributors",
+            "[1] https://www.mcmaster.com/",
+            "[1] https://www.mcmaster.com/products/y-distributors/",
+            "[1] https://www.mcmaster.com/products/air-distributors/",
+            "[1] https://www.mcmaster.com/products/distribution-blocks/",
+            "[1] https://www.mcmaster.com/products/distribution-bars/",
+            "[1] https://www.mcmaster.com/products/distributor-point-files/"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://mcmaster.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/y-distributors/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distribution-blocks/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/y-distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/air-distributors/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distribution-bars/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distributor-point-files/",
+              "source": "search",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 2,
+          "afterValidate": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "reason": "Only 1 distributor(s); minimum 2 required for agent",
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 1,
+          "topScores": [
+            "McMaster-Carr [6] sales@mcmaster.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT 1000 GRAM",
+          "normalizedManufacturer": "MCMASTER CARR",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"MCMASTER CARR\" \"1777T31\" authorized distributor email contact",
+            "\"1777T31\" MCMASTER CARR buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"1777T31\" \"MCMASTER CARR\" distributor",
+            "MCMASTER CARR 1777T31 distributor network"
+          ]
+        }
+      }
+    }
+  ]
+}

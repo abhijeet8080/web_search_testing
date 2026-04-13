@@ -8,6 +8,7 @@
     "deep": "tsx src/deep.ts",
     "test_exa": "tsx src/test_exa.ts",
     "test_firecrawl": "tsx src/test_firecrawl.ts",
+    "test_fetch_product_url": "tsx src/run_test_fetch_product_url.ts",
     "procurement": "tsx src/test_firecrawl.ts",
     "start": "npm run search",
     "build": "tsc -p tsconfig.json",
@@ -19,7 +20,8 @@
   "dependencies": {
     "@mendable/firecrawl-js": "^4.18.0",
     "dotenv": "^17.3.1",
-    "exa-js": "^2.10.1"
+    "exa-js": "^2.10.1",
+    "openai": "^6.33.0"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",

@@ -333,41 +333,51 @@ export async function runProcurementPipeline(
   });
 
   // ── Layer 5 ────────────────────────────────────────────────────────────────
+  /** Do not run the expensive agent when we already have fewer than 2 distributors — nothing meaningful to augment. */
+  const MIN_DISTRIBUTORS_FOR_AGENT = 2;
+
   if (!options.skipAgent) {
-    try {
-      const agentResult = await runLayer5Agent(normalizedInput, withEmailAfterL4, log);
-      if (agentResult.triggered && agentResult.distributors.length > 0) {
-        // Parse agent results and merge into existing set
-        const agentParsed = agentResult.distributors
-          .map((d) => parseDistributor({ ...d, _sourceLayer: "agent" }))
-          .filter((d): d is Distributor => d !== null);
+    if (distributors.length < MIN_DISTRIBUTORS_FOR_AGENT) {
+      log("pipeline", "Layer 5 skipped — fewer than minimum distributors", {
+        total: distributors.length,
+        minimumRequired: MIN_DISTRIBUTORS_FOR_AGENT,
+      });
+    } else {
+      try {
+        const agentResult = await runLayer5Agent(normalizedInput, withEmailAfterL4, log);
+        if (agentResult.triggered && agentResult.distributors.length > 0) {
+          // Parse agent results and merge into existing set
+          const agentParsed = agentResult.distributors
+            .map((d) => parseDistributor({ ...d, _sourceLayer: "agent" }))
+            .filter((d): d is Distributor => d !== null);
 
-        // Merge: add only if not already present by email or name
-        const existingEmails = new Set(distributors.map((d) => d.email.toLowerCase()));
-        const existingNames = new Set(
-          distributors.map((d) => d.name.toLowerCase().replace(/[^a-z0-9]/g, "")),
-        );
+          // Merge: add only if not already present by email or name
+          const existingEmails = new Set(distributors.map((d) => d.email.toLowerCase()));
+          const existingNames = new Set(
+            distributors.map((d) => d.name.toLowerCase().replace(/[^a-z0-9]/g, "")),
+          );
 
-        for (const d of agentParsed) {
-          const emailKey = d.email.toLowerCase();
-          const nameKey = d.name.toLowerCase().replace(/[^a-z0-9]/g, "");
-          if (
-            (d.email && !existingEmails.has(emailKey)) ||
-            (!d.email && !existingNames.has(nameKey))
-          ) {
-            distributors.push(d);
+          for (const d of agentParsed) {
+            const emailKey = d.email.toLowerCase();
+            const nameKey = d.name.toLowerCase().replace(/[^a-z0-9]/g, "");
+            if (
+              (d.email && !existingEmails.has(emailKey)) ||
+              (!d.email && !existingNames.has(nameKey))
+            ) {
+              distributors.push(d);
+            }
           }
-        }
 
-        layersUsed.push("agent");
-        log("pipeline", "Agent merged results", {
-          agentFound: agentParsed.length,
-          newAdded: distributors.length - withEmailAfterL4,
-        });
+          layersUsed.push("agent");
+          log("pipeline", "Agent merged results", {
+            agentFound: agentParsed.length,
+            newAdded: distributors.length - withEmailAfterL4,
+          });
+        }
+      } catch (err) {
+        warnings.push(`Layer 5 agent failed: ${String(err)}`);
+        log("pipeline", "Layer 5 failed — continuing", { error: String(err) });
       }
-    } catch (err) {
-      warnings.push(`Layer 5 agent failed: ${String(err)}`);
-      log("pipeline", "Layer 5 failed — continuing", { error: String(err) });
     }
   } else {
     log("pipeline", "Layer 5 skipped (skipAgent=true)");

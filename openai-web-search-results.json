@@ -1,0 +1,1224 @@
+{
+  "generatedAt": "2026-04-02T13:24:14.895Z",
+  "updatedAt": "2026-04-02T13:29:32.644Z",
+  "itemsFile": "D:\\Projects\\web_search_testing\\exa-search-test\\items.txt",
+  "resultsJsonPath": "D:\\Projects\\web_search_testing\\exa-search-test\\openai-web-search-results.json",
+  "results": [
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+          "manufacturerName": "PILZ"
+        },
+        "manufacturer": {
+          "name": "Pilz GmbH & Co. KG",
+          "website": "https://www.pilz.com",
+          "email": "info@pilz.de",
+          "phone": "+49 711 3409‑0",
+          "HQ": "Felix‑Wankel‑Straße 2, 73760 Ostfildern, Germany"
+        },
+        "manufacturerDomain": "pilz.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50, EATON, 05146555-5591 / 5SC750I",
+          "manufacturerName": "EATON CORPORATION"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "EATON CORPORATION",
+        "distributors": {
+          "fromManufacturerSite": [
+            {
+              "name": "VSTECS Phils., Inc.",
+              "email": "chalalaikwansuwan@Eaton.com",
+              "website": "Not specified on Eaton site",
+              "phone": "+66 2 511-5290",
+              "region": "Philippines",
+              "source": ""
+            }
+          ],
+          "fromOpenWeb": [
+            {
+              "name": "ICTECH Distribution",
+              "email": "info@ictechdistribution.com",
+              "website": "ictechdistribution.com",
+              "phone": "+971 52 266 9803 or +971 56 624 8617 or +971 04 398 1944",
+              "region": "UAE (serving UAE and Africa)",
+              "source": ""
+            },
+            {
+              "name": "Terrabyt.com",
+              "email": "sales@dsrtech.ae",
+              "website": "dsrtech.ae",
+              "phone": "+971 4 3544115",
+              "region": "UAE and Africa",
+              "source": ""
+            },
+            {
+              "name": "Joy Song Technology",
+              "email": "js@joysong.com.tw",
+              "website": "joysong.com.tw",
+              "phone": "+886‑4‑2380‑6508",
+              "region": "Taiwan",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "VSTECS Phils., Inc.",
+              "email": "chalalaikwansuwan@Eaton.com",
+              "website": "Not specified on Eaton site",
+              "phone": "+66 2 511-5290",
+              "region": "Philippines",
+              "source": "",
+              "address": "",
+              "enrichmentSources": []
+            },
+            {
+              "name": "ICTECH Distribution",
+              "email": "info@ictechdistribution.com",
+              "website": "ictechdistribution.com",
+              "phone": "+971 52 266 9803 or +971 56 624 8617 or +971 04 398 1944",
+              "region": "UAE (serving UAE and Africa)",
+              "source": "",
+              "address": "421 Read More Request Quote DELL EMC Dell EMC Unity XT 480F All Flash Read More Request Quote DELL LAPTOPS Dell Pro 14 PC14250/Intel Core U7",
+              "enrichmentSources": [
+                "https://ictechdistribution.com/",
+                "https://ictechdistribution.com/contact",
+                "https://ictechdistribution.com/contact-us"
+              ]
+            },
+            {
+              "name": "Terrabyt.com",
+              "email": "sales@dsrtech.ae",
+              "website": "dsrtech.ae",
+              "phone": "+971 4 3544115",
+              "region": "UAE and Africa",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://dsrtech.ae/",
+                "https://dsrtech.ae/contact",
+                "https://dsrtech.ae/contact-us"
+              ]
+            },
+            {
+              "name": "Joy Song Technology",
+              "email": "js@joysong.com.tw",
+              "website": "joysong.com.tw",
+              "phone": "+886‑4‑2380‑6508",
+              "region": "Taiwan",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://joysong.com.tw/",
+                "https://joysong.com.tw/contact",
+                "https://joysong.com.tw/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "TEKA 9412000002, FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH: 1200MM, INCLUDES FASTENING SCREW",
+          "manufacturerName": "TEKA"
+        },
+        "manufacturer": {
+          "name": "TEKA Absaug‑und Entsorgungstechnologie GmbH",
+          "website": "www.teka.eu",
+          "email": "info@teka.eu",
+          "phone": "+49 2541 84841‑0",
+          "HQ": "Millenkamp 9, 48653 Coesfeld, Germany"
+        },
+        "manufacturerDomain": "teka.eu",
+        "distributors": {
+          "fromManufacturerSite": [
+            {
+              "name": "Precision Welding Group",
+              "email": "sales@teka.eu",
+              "website": "https://www.teka.eu",
+              "phone": "+49 2541 84 84 1‑0",
+              "region": "USA",
+              "source": ""
+            }
+          ],
+          "fromOpenWeb": [
+            {
+              "name": "TEKA USA, Inc.",
+              "email": "info@tekausa.com",
+              "website": "http://www.teka.com",
+              "phone": "813 288 8820",
+              "region": "USA",
+              "source": ""
+            },
+            {
+              "name": "TEKA Polska Sp. z o.o.",
+              "email": "teka@teka.com.pl",
+              "website": "http://www.teka.com",
+              "phone": "+48 22 738 3270",
+              "region": "Poland",
+              "source": ""
+            },
+            {
+              "name": "TEKA Maschinenbau GmbH",
+              "email": "info@teka‑maschinenbau.de",
+              "website": "http://www.teka.de",
+              "phone": "+49 6323 809 0",
+              "region": "Germany",
+              "source": ""
+            },
+            {
+              "name": "TEKA KÜCHENTEchnik (Malaysia) Sdn Bhd",
+              "email": "customer_svc@teka.com.my",
+              "website": "http://www.teka.com.my",
+              "phone": "03 7620 1600",
+              "region": "Malaysia",
+              "source": ""
+            },
+            {
+              "name": "TEKA Chile S.A.",
+              "email": "info@teka.cl",
+              "website": "http://www.teka.com",
+              "phone": "+56 2 4386 000",
+              "region": "Chile",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Precision Welding Group",
+              "email": "sales@teka.eu",
+              "website": "https://www.teka.eu",
+              "phone": "+49 2541 84 84 1‑0",
+              "region": "USA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.teka.eu/",
+                "https://www.teka.eu/contact",
+                "https://www.teka.eu/contact-us"
+              ]
+            },
+            {
+              "name": "TEKA USA, Inc.",
+              "email": "info@tekausa.com",
+              "website": "http://www.teka.com",
+              "phone": "813 288 8820",
+              "region": "USA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "http://www.teka.com/",
+                "http://www.teka.com/contact",
+                "http://www.teka.com/contact-us"
+              ]
+            },
+            {
+              "name": "TEKA Polska Sp. z o.o.",
+              "email": "teka@teka.com.pl",
+              "website": "http://www.teka.com",
+              "phone": "+48 22 738 3270",
+              "region": "Poland",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "http://www.teka.com/",
+                "http://www.teka.com/contact",
+                "http://www.teka.com/contact-us"
+              ]
+            },
+            {
+              "name": "TEKA Maschinenbau GmbH",
+              "email": "info@teka‑maschinenbau.de",
+              "website": "http://www.teka.de",
+              "phone": "+49 6323 809 0",
+              "region": "Germany",
+              "source": "",
+              "address": "6323 809-51 Richard Gartner E-Mail: r",
+              "enrichmentSources": [
+                "http://www.teka.de/",
+                "http://www.teka.de/contact",
+                "http://www.teka.de/contact-us"
+              ]
+            },
+            {
+              "name": "TEKA KÜCHENTEchnik (Malaysia) Sdn Bhd",
+              "email": "customer_svc@teka.com.my",
+              "website": "http://www.teka.com.my",
+              "phone": "03 7620 1600",
+              "region": "Malaysia",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "http://www.teka.com.my/",
+                "http://www.teka.com.my/contact",
+                "http://www.teka.com.my/contact-us"
+              ]
+            },
+            {
+              "name": "TEKA Chile S.A.",
+              "email": "info@teka.cl",
+              "website": "http://www.teka.com",
+              "phone": "+56 2 4386 000",
+              "region": "Chile",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "http://www.teka.com/",
+                "http://www.teka.com/contact",
+                "http://www.teka.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT, 1000 GRAM",
+          "manufacturerName": "MCMASTER CARR"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "MCMASTER CARR",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "McMaster‑Carr Supply Company",
+              "email": "sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "(609) 689‑3000",
+              "region": "Global (direct from manufacturer/distributor)",
+              "source": ""
+            },
+            {
+              "name": "Higher Precision",
+              "email": "info@higherprecision.com",
+              "website": "[not specified]",
+              "phone": "(413) 393‑2485",
+              "region": "United States (catalog house)",
+              "source": ""
+            },
+            {
+              "name": "MSC Direct",
+              "email": "customercare@mscdirect.com",
+              "website": "[not specified]",
+              "phone": "(800) 645‑7270",
+              "region": "United States (catalog house)",
+              "source": ""
+            },
+            {
+              "name": "PT Solutions",
+              "email": "sales@pts‑tools.com",
+              "website": "[not specified]",
+              "phone": "(586) 755‑7770",
+              "region": "United States (catalog house)",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "McMaster‑Carr Supply Company",
+              "email": "sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "(609) 689‑3000",
+              "region": "Global (direct from manufacturer/distributor)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mcmaster.com/",
+                "https://www.mcmaster.com/contact",
+                "https://www.mcmaster.com/contact-us"
+              ]
+            },
+            {
+              "name": "Higher Precision",
+              "email": "info@higherprecision.com",
+              "website": "[not specified]",
+              "phone": "(413) 393‑2485",
+              "region": "United States (catalog house)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": []
+            },
+            {
+              "name": "MSC Direct",
+              "email": "customercare@mscdirect.com",
+              "website": "[not specified]",
+              "phone": "(800) 645‑7270",
+              "region": "United States (catalog house)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": []
+            },
+            {
+              "name": "PT Solutions",
+              "email": "sales@pts‑tools.com",
+              "website": "[not specified]",
+              "phone": "(586) 755‑7770",
+              "region": "United States (catalog house)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MCMASTER-CARR K2535-1 TIG Welder",
+          "manufacturerName": "MCMASTER CARR"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "MCMASTER CARR",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "McMaster‑Carr Supply Company – Illinois (Headquarters)",
+              "email": "chi.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "630‑834‑9427",
+              "region": "United States – Illinois",
+              "source": ""
+            },
+            {
+              "name": "McMaster‑Carr Supply Company – New Jersey (Distribution Center)",
+              "email": "nj.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "609‑259‑8900",
+              "region": "United States – New Jersey",
+              "source": ""
+            },
+            {
+              "name": "McMaster‑Carr Supply Company – Ohio (Distribution Center)",
+              "email": "cle.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "330‑995‑5500",
+              "region": "United States – Ohio",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "McMaster‑Carr Supply Company – Illinois (Headquarters)",
+              "email": "chi.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "630‑834‑9427",
+              "region": "United States – Illinois",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mcmaster.com/",
+                "https://www.mcmaster.com/contact",
+                "https://www.mcmaster.com/contact-us"
+              ]
+            },
+            {
+              "name": "McMaster‑Carr Supply Company – New Jersey (Distribution Center)",
+              "email": "nj.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "609‑259‑8900",
+              "region": "United States – New Jersey",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mcmaster.com/",
+                "https://www.mcmaster.com/contact",
+                "https://www.mcmaster.com/contact-us"
+              ]
+            },
+            {
+              "name": "McMaster‑Carr Supply Company – Ohio (Distribution Center)",
+              "email": "cle.sales@mcmaster.com",
+              "website": "www.mcmaster.com",
+              "phone": "330‑995‑5500",
+              "region": "United States – Ohio",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mcmaster.com/",
+                "https://www.mcmaster.com/contact",
+                "https://www.mcmaster.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "VENTURE LIGHTING F73190,  LAMP, MP 400W/ED37/PS/BU/950",
+          "manufacturerName": "VENTURE LIGHTINGS"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "VENTURE LIGHTINGS",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [],
+          "merged": []
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "LEESON ELECTRIC C42D17FK1C DIRECT CURRENT DC MOTOR-SCR RATED - PERMANENT MAGNET, BRUSHED, 90 V, 1750 RPM RPM, TEFC(TOTALLY ENCLOSED FAN COOLED) (MPN 098000.00)",
+          "manufacturerName": "LEESON ELECTRIC"
+        },
+        "manufacturer": {
+          "name": "LEESON Electric Corporation",
+          "website": "http://www.leeson.com",
+          "email": "sales@leeson.com",
+          "phone": "+1 (262) 377-8810",
+          "HQ": "2100 Washington Street, Grafton, WI 53024, United States"
+        },
+        "manufacturerDomain": "leeson.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Dreisilker Electric Motors, Inc.",
+              "email": "info@dreisilker.com",
+              "website": "dreisilker.com",
+              "phone": "630-469-7510",
+              "region": "United States (Illinois area, serves broader network worldwide)",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Dreisilker Electric Motors, Inc.",
+              "email": "info@dreisilker.com",
+              "website": "dreisilker.com",
+              "phone": "630-469-7510",
+              "region": "United States (Illinois area, serves broader network worldwide)",
+              "source": "",
+              "address": "352 Roosevelt Road Glen Ellyn, IL 60137 Phone: 630-469-7510 Solutions We Provide: Replacement Motors and Parts High Quality Repair and Ser",
+              "enrichmentSources": [
+                "https://dreisilker.com/",
+                "https://dreisilker.com/contact",
+                "https://dreisilker.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "3M SCOTCH BRITE SIZE WIDTH 6\" X LENGTH 30FT/ROLL",
+          "manufacturerName": "3M SCOTCH BRITE"
+        },
+        "manufacturer": {
+          "name": "3M Company",
+          "website": "https://www.3m.com",
+          "email": "3MIndustrial@mmm.com",
+          "phone": "1‑800‑364‑3577",
+          "HQ": "3M Center, St. Paul, Minnesota 55144‑1000, USA"
+        },
+        "manufacturerDomain": "3m.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Contract Production Services (CPS) via 3M Accessories",
+              "email": "cjones@contactcps.com",
+              "website": "CPSabrasives.com",
+              "phone": "1-800-843-0619",
+              "region": "United States",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Contract Production Services (CPS) via 3M Accessories",
+              "email": "cjones@contactcps.com",
+              "website": "CPSabrasives.com",
+              "phone": "1-800-843-0619",
+              "region": "United States",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://cpsabrasives.com/",
+                "https://cpsabrasives.com/contact",
+                "https://cpsabrasives.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "3M DBI-SALA 1103071,3M DBI-SALA EXOFIT NEX COMFORT ARC FLASH VEST POSITIONING SAFETY HARNESS 1103071, MEDIUM",
+          "manufacturerName": "3M DBI-SALA"
+        },
+        "manufacturer": {
+          "name": "3M Company – Personal Safety Division (DBI‑SALA)",
+          "website": "https://www.3m.com/",
+          "email": "3Mfallprotection@mmm.com",
+          "phone": "+1 800‑328‑6146",
+          "HQ": "3833 SALA Way, Red Wing, MN 55066, USA"
+        },
+        "manufacturerDomain": "3m.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "3M Fall Protection – United States (Headquarters)",
+              "email": "3Mfallprotection@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+1 800-328-6146",
+              "region": "USA",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – Canada",
+              "email": "3Mfallprotection‑ca@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+1 800‑387‑7484",
+              "region": "Canada",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – Australia & New Zealand",
+              "email": "anzfallprotectionsales@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+61  1800 245 002 (AUS), +64  0800 212 505 (NZ)",
+              "region": "Australia & New Zealand",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – Brazil",
+              "email": "falecoma3m@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "0800‑942‑2300",
+              "region": "Brazil",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – EMEA (Europe, Middle East, Africa)",
+              "email": "informationfallprotection@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+44  (0)1527 548 000",
+              "region": "EMEA",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – Asia (Singapore)",
+              "email": "totalfallprotectio@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+65  65587758",
+              "region": "Asia (Singapore)",
+              "source": ""
+            },
+            {
+              "name": "3M Fall Protection – Mexico",
+              "email": "3msaludocupacional@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+52 (55) 5270 2370, 01 800 712 0646 / 01 800 120 3636",
+              "region": "Mexico",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "3M Fall Protection – United States (Headquarters)",
+              "email": "3Mfallprotection@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+1 800-328-6146",
+              "region": "USA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – Canada",
+              "email": "3Mfallprotection‑ca@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+1 800‑387‑7484",
+              "region": "Canada",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – Australia & New Zealand",
+              "email": "anzfallprotectionsales@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+61  1800 245 002 (AUS), +64  0800 212 505 (NZ)",
+              "region": "Australia & New Zealand",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – Brazil",
+              "email": "falecoma3m@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "0800‑942‑2300",
+              "region": "Brazil",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – EMEA (Europe, Middle East, Africa)",
+              "email": "informationfallprotection@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+44  (0)1527 548 000",
+              "region": "EMEA",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – Asia (Singapore)",
+              "email": "totalfallprotectio@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+65  65587758",
+              "region": "Asia (Singapore)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            },
+            {
+              "name": "3M Fall Protection – Mexico",
+              "email": "3msaludocupacional@mmm.com",
+              "website": "3M.com/FallProtection",
+              "phone": "+52 (55) 5270 2370, 01 800 712 0646 / 01 800 120 3636",
+              "region": "Mexico",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://3m.com/FallProtection",
+                "https://3m.com/contact",
+                "https://3m.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "BLACK DECKER High Velocity Floor Fan, 15.6\" Diameter Freestanding Fan, 5 Plastic Blades, 3-Speeds, 90-Degree Tilt Adjustment, For Use In Bedroom, Home or Office, 5.5 lbs., Gray/Black, BFF16B",
+          "manufacturerName": "BLACK AND DECKER"
+        },
+        "manufacturer": {
+          "name": "Black+Decker (a subsidiary of Stanley Black & Decker, Inc.)",
+          "website": "https://www.blackanddecker.com",
+          "email": "corporaterequest@sbdinc.com",
+          "phone": "+1 (800) 544‑6986",
+          "HQ": "701 East Joppa Road, Towson, Maryland 21286‑5559, United States"
+        },
+        "manufacturerDomain": "blackanddecker.com",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Stanley Black & Decker Belgium BVBA",
+              "email": "enduser.BE@SBDinc.com",
+              "website": "www.blackanddecker.be",
+              "phone": "+32 15 47 37 65",
+              "region": "Belgium/Luxembourg",
+              "source": ""
+            },
+            {
+              "name": "Stanley Black & Decker Deutschland GmbH",
+              "email": "infobfge@sbdinc.com",
+              "website": "www.blackanddecker.de",
+              "phone": "06126 21‑0",
+              "region": "Germany",
+              "source": ""
+            },
+            {
+              "name": "Stanley Black & Decker Italia",
+              "email": "service.italia@sbdinc.com",
+              "website": "www.blackanddecker.it",
+              "phone": "039‑9590200",
+              "region": "Italy",
+              "source": ""
+            },
+            {
+              "name": "Stanley Black & Decker Netherlands BV",
+              "email": "enduser.nl@sbdinc.com",
+              "website": "www.blackanddecker.nl",
+              "phone": "+31 164 283 065",
+              "region": "Netherlands",
+              "source": ""
+            },
+            {
+              "name": "Black & Decker AB (Sweden)",
+              "email": "kundservice.se@sbdinc.com",
+              "website": "www.blackanddecker.se",
+              "phone": "",
+              "region": "Sweden",
+              "source": ""
+            },
+            {
+              "name": "Black & Decker (Middle East & Africa)",
+              "email": "service.mea@sbdinc.com",
+              "website": "www.blackanddecker.ae",
+              "phone": "+971 4 8863030",
+              "region": "Middle East & Africa",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Stanley Black & Decker Belgium BVBA",
+              "email": "enduser.BE@SBDinc.com",
+              "website": "www.blackanddecker.be",
+              "phone": "+32 15 47 37 65",
+              "region": "Belgium/Luxembourg",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.be/",
+                "https://www.blackanddecker.be/contact",
+                "https://www.blackanddecker.be/contact-us"
+              ]
+            },
+            {
+              "name": "Stanley Black & Decker Deutschland GmbH",
+              "email": "infobfge@sbdinc.com",
+              "website": "www.blackanddecker.de",
+              "phone": "06126 21‑0",
+              "region": "Germany",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.de/",
+                "https://www.blackanddecker.de/contact",
+                "https://www.blackanddecker.de/contact-us"
+              ]
+            },
+            {
+              "name": "Stanley Black & Decker Italia",
+              "email": "service.italia@sbdinc.com",
+              "website": "www.blackanddecker.it",
+              "phone": "039‑9590200",
+              "region": "Italy",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.it/",
+                "https://www.blackanddecker.it/contact",
+                "https://www.blackanddecker.it/contact-us"
+              ]
+            },
+            {
+              "name": "Stanley Black & Decker Netherlands BV",
+              "email": "enduser.nl@sbdinc.com",
+              "website": "www.blackanddecker.nl",
+              "phone": "+31 164 283 065",
+              "region": "Netherlands",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.nl/",
+                "https://www.blackanddecker.nl/contact",
+                "https://www.blackanddecker.nl/contact-us"
+              ]
+            },
+            {
+              "name": "Black & Decker AB (Sweden)",
+              "email": "kundservice.se@sbdinc.com",
+              "website": "www.blackanddecker.se",
+              "phone": "",
+              "region": "Sweden",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.se/",
+                "https://www.blackanddecker.se/contact",
+                "https://www.blackanddecker.se/contact-us"
+              ]
+            },
+            {
+              "name": "Black & Decker (Middle East & Africa)",
+              "email": "service.mea@sbdinc.com",
+              "website": "www.blackanddecker.ae",
+              "phone": "+971 4 8863030",
+              "region": "Middle East & Africa",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.blackanddecker.ae/",
+                "https://www.blackanddecker.ae/contact",
+                "https://www.blackanddecker.ae/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "PARKER RX23-005-L2 BAYSIDE RIGHT ANGLE GEARHEAD",
+          "manufacturerName": "PARKER"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "parker",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Parker Hannifin Electromechanical & Drives Division (North America)",
+              "email": "emn_support@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "800‑358‑9070",
+              "region": "North America (USA)",
+              "source": ""
+            },
+            {
+              "name": "Parker Hannifin Ltd. (UK)",
+              "email": "em-motion@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "+44 (0)1926 317970",
+              "region": "Europe (United Kingdom)",
+              "source": ""
+            },
+            {
+              "name": "Parker Hannifin Singapore Pte Ltd",
+              "email": "automation.brazil@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "(65) 6887 6300",
+              "region": "Asia Pacific (Singapore)",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Parker Hannifin Electromechanical & Drives Division (North America)",
+              "email": "emn_support@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "800‑358‑9070",
+              "region": "North America (USA)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.parker.com/emn",
+                "https://www.parker.com/contact",
+                "https://www.parker.com/contact-us"
+              ]
+            },
+            {
+              "name": "Parker Hannifin Ltd. (UK)",
+              "email": "em-motion@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "+44 (0)1926 317970",
+              "region": "Europe (United Kingdom)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.parker.com/emn",
+                "https://www.parker.com/contact",
+                "https://www.parker.com/contact-us"
+              ]
+            },
+            {
+              "name": "Parker Hannifin Singapore Pte Ltd",
+              "email": "automation.brazil@parker.com",
+              "website": "www.parker.com/emn",
+              "phone": "(65) 6887 6300",
+              "region": "Asia Pacific (Singapore)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.parker.com/emn",
+                "https://www.parker.com/contact",
+                "https://www.parker.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "BONDHUS 17150 1.5MM ALLEN KEY (SHORT ,CHROME PLATED)",
+          "manufacturerName": "BONDHUS"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "bondhus",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "DOCAP DISTRIBUTION INC",
+              "email": "sales@docap.com",
+              "website": "www.docap.com",
+              "phone": "905 673 0000",
+              "region": "Canada",
+              "source": ""
+            },
+            {
+              "name": "Sing Kee Metalware Company Limited",
+              "email": "ric@skmc.com.hk",
+              "website": "www.facebook.com/skmc.hk/",
+              "phone": "852 2408 6479",
+              "region": "China / Hong Kong",
+              "source": ""
+            },
+            {
+              "name": "Fegemu, S.A.",
+              "email": "info.fegemu@fegemu.com",
+              "website": "www.fegemu.com",
+              "phone": "34 943 316990",
+              "region": "Spain",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "DOCAP DISTRIBUTION INC",
+              "email": "sales@docap.com",
+              "website": "www.docap.com",
+              "phone": "905 673 0000",
+              "region": "Canada",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.docap.com/",
+                "https://www.docap.com/contact",
+                "https://www.docap.com/contact-us"
+              ]
+            },
+            {
+              "name": "Sing Kee Metalware Company Limited",
+              "email": "ric@skmc.com.hk",
+              "website": "www.facebook.com/skmc.hk/",
+              "phone": "852 2408 6479",
+              "region": "China / Hong Kong",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.facebook.com/skmc.hk/",
+                "https://www.facebook.com/contact",
+                "https://www.facebook.com/contact-us"
+              ]
+            },
+            {
+              "name": "Fegemu, S.A.",
+              "email": "info.fegemu@fegemu.com",
+              "website": "www.fegemu.com",
+              "phone": "34 943 316990",
+              "region": "Spain",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.fegemu.com/",
+                "https://www.fegemu.com/contact",
+                "https://www.fegemu.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "MOLEX 0039013028 2 WAY MINI FIT CONNECTOR M/F",
+          "manufacturerName": "MOLEX"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "molex",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Molex CES Sales Team (Americas)",
+              "email": "inquiries.ces.amers@molex.com",
+              "website": "https://www.molexces.com",
+              "phone": "+1 866 733 6659",
+              "region": "United States, Americas",
+              "source": ""
+            },
+            {
+              "name": "Avnet Asia (authorized distributor)",
+              "email": "(via Molex CES Sales Team or Avnet inquiry channel)",
+              "website": "https://www.molexces.com",
+              "phone": "see Molex CES contact",
+              "region": "Asia (Avnet Asia)",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Molex CES Sales Team (Americas)",
+              "email": "inquiries.ces.amers@molex.com",
+              "website": "https://www.molexces.com",
+              "phone": "+1 866 733 6659",
+              "region": "United States, Americas",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.molexces.com/",
+                "https://www.molexces.com/contact",
+                "https://www.molexces.com/contact-us"
+              ]
+            },
+            {
+              "name": "Avnet Asia (authorized distributor)",
+              "email": "(via Molex CES Sales Team or Avnet inquiry channel)",
+              "website": "https://www.molexces.com",
+              "phone": "see Molex CES contact",
+              "region": "Asia (Avnet Asia)",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.molexces.com/",
+                "https://www.molexces.com/contact",
+                "https://www.molexces.com/contact-us"
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "output": {
+        "input": {
+          "partNumber": "STMICROELECTRONICS 208223800, COML,IC,VOLTAGE REGULATORS,STMICROELECTRONICS,L7805CV",
+          "manufacturerName": "STMICROELECTRONICS"
+        },
+        "manufacturer": null,
+        "manufacturerDomain": "stmicroelectronics",
+        "distributors": {
+          "fromManufacturerSite": [],
+          "fromOpenWeb": [
+            {
+              "name": "Mouser Electronics",
+              "email": "sales@mouser.com",
+              "website": "www.mouser.com",
+              "phone": "800‑346‑6873",
+              "region": "Worldwide",
+              "source": ""
+            },
+            {
+              "name": "Digi‑Key Electronics",
+              "email": "orders@digikey.com",
+              "website": "www.digikey.com",
+              "phone": "800‑344‑4539",
+              "region": "Worldwide",
+              "source": ""
+            },
+            {
+              "name": "Future Electronics",
+              "email": "(via contact form)",
+              "website": "www.futureelectronics.com",
+              "phone": "1‑800‑767‑1458",
+              "region": "Worldwide",
+              "source": ""
+            }
+          ],
+          "merged": [
+            {
+              "name": "Mouser Electronics",
+              "email": "sales@mouser.com",
+              "website": "www.mouser.com",
+              "phone": "800‑346‑6873",
+              "region": "Worldwide",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.mouser.com/",
+                "https://www.mouser.com/contact",
+                "https://www.mouser.com/contact-us"
+              ]
+            },
+            {
+              "name": "Digi‑Key Electronics",
+              "email": "orders@digikey.com",
+              "website": "www.digikey.com",
+              "phone": "800‑344‑4539",
+              "region": "Worldwide",
+              "source": "",
+              "address": "",
+              "enrichmentSources": [
+                "https://www.digikey.com/",
+                "https://www.digikey.com/contact",
+                "https://www.digikey.com/contact-us"
+              ]
+            },
+            {
+              "name": "Future Electronics",
+              "email": "(via contact form)",
+              "website": "www.futureelectronics.com",
+              "phone": "1‑800‑767‑1458",
+              "region": "Worldwide",
+              "source": "",
+              "address": "422 Smartcard Interface Specialty Interface UART USB View all Switches Detect Dip Switch Encoder Switch Hardware & Accessories Key Pu",
+              "enrichmentSources": [
+                "https://www.futureelectronics.com/",
+                "https://www.futureelectronics.com/contact",
+                "https://www.futureelectronics.com/contact-us"
+                ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

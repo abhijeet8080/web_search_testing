@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
-import { exa } from "./exaClient.js";
-import type { DeepObjectOutputSchema } from "exa-js";
+import OpenAI from "openai";
+import { requiredEnv } from "./utils/env.js";
 
 type ManufacturerInfo = {
   name: string;
@@ -49,12 +49,13 @@ type ItemResult =
 
 type ResultsFile = {
   generatedAt: string;
+  updatedAt: string;
   itemsFile: string;
   resultsJsonPath: string;
   results: ItemResult[];
 };
 
-const LOG_PREFIX = "[test_exa]";
+const LOG_PREFIX = "[test_openai_web_search]";
 
 function logStage(stage: string, message: string, details?: unknown): void {
   const line = `${LOG_PREFIX} [${stage}] ${message}`;
@@ -64,39 +65,6 @@ function logStage(stage: string, message: string, details?: unknown): void {
   }
   console.error(`${line}\n${JSON.stringify(details, null, 2)}`);
 }
-
-const manufacturerSchema: DeepObjectOutputSchema = {
-  type: "object",
-  properties: {
-    name: { type: "string" },
-    website: { type: "string" },
-    email: { type: "string" },
-    phone: { type: "string" },
-    HQ: { type: "string" },
-  },
-  required: ["name", "website", "email", "phone", "HQ"],
-};
-
-const distributorsSchema: DeepObjectOutputSchema = {
-  type: "object",
-  properties: {
-    distributors: {
-      type: "array",
-      items: {
-        type: "object",
-        properties: {
-          name: { type: "string" },
-          email: { type: "string" },
-          website: { type: "string" },
-          phone: { type: "string" },
-          region: { type: "string" },
-        },
-        required: ["name", "email", "website", "phone", "region"],
-      },
-    },
-  },
-  required: ["distributors"],
-};
 
 function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === "object" && value !== null;
@@ -130,6 +98,18 @@ function getDomain(input: string): string {
     return new URL(withProtocol).hostname.replace(/^www\./, "");
   } catch {
     return raw.replace(/^https?:\/\//, "").replace(/^www\./, "").split("/")[0];
+  }
+}
+
+function extractJsonFromText(text: string): unknown {
+  const start = text.indexOf("{");
+  const end = text.lastIndexOf("}");
+  if (start === -1 || end === -1 || end <= start) return {};
+  const candidate = text.slice(start, end + 1);
+  try {
+    return JSON.parse(candidate);
+  } catch {
+    return {};
   }
 }
 
@@ -169,16 +149,41 @@ function contactUrlCandidates(website: string): string[] {
   return Array.from(new Set(candidates));
 }
 
+function htmlToText(html: string): string {
+  // Lightweight HTML -> text conversion; good enough for email/phone extraction.
+  const withoutScripts = html.replace(/<script[^>]*>[\s\S]*?<\/script>/gi, " ");
+  const withoutStyles = withoutScripts.replace(/<style[^>]*>[\s\S]*?<\/style>/gi, " ");
+  const withNewlines = withoutStyles.replace(/<\/(p|div|br|li|tr|h1|h2|h3|table)>/gi, "\n");
+  const stripped = withNewlines.replace(/<[^>]+>/g, " ");
+  return stripped.replace(/\s+/g, " ").trim();
+}
+
+async function fetchText(url: string, maxChars: number): Promise<string> {
+  try {
+    const res = await fetch(url, {
+      method: "GET",
+      headers: { "user-agent": "Mozilla/5.0 (compatible; exa-search-test)" },
+    });
+    if (!res.ok) return "";
+    const html = await res.text();
+    const text = htmlToText(html);
+    return text.slice(0, maxChars);
+  } catch {
+    return "";
+  }
+}
+
 async function deepSearchObject(
+  openai: OpenAI,
   query: string,
   options: {
     category?: "company";
     includeDomains?: string[];
     systemPrompt?: string;
-    outputSchema: DeepObjectOutputSchema;
+    outputSchema: Record<string, unknown>;
   },
 ): Promise<Record<string, unknown>> {
-  logStage("search", "Executing deep search request", {
+  logStage("search", "Executing web_search deep extraction request", {
     query,
     options: {
       category: options.category ?? "",
@@ -188,86 +193,128 @@ async function deepSearchObject(
     },
   });
 
-  const response = await exa.search(query, {
-    type: "deep",
-    category: options.category,
-    includeDomains: options.includeDomains,
-    systemPrompt: options.systemPrompt,
-    outputSchema: options.outputSchema,
-    numResults: 10,
-    contents: { text: true },
+  const includeDomains = options.includeDomains?.filter(Boolean) ?? [];
+  const tool: Record<string, unknown> = { type: "web_search" };
+
+  // Domain hint in the prompt — OpenAI's web_search tool does not support domain filters.
+  const domainHint =
+    includeDomains.length > 0
+      ? `Search ONLY on these domains: ${includeDomains.join(", ")}.`
+      : "";
+
+  const input = [
+    "You have access to the `web_search` tool.",
+    "Use it to search the web for the answer.",
+    domainHint,
+    options.systemPrompt ? `SYSTEM INSTRUCTIONS:\n${options.systemPrompt}` : "",
+    `SEARCH QUERY:\n${query}`,
+    "Return ONLY valid JSON that matches this schema (no markdown, no backticks, no extra keys):",
+    JSON.stringify(options.outputSchema),
+  ]
+    .filter(Boolean)
+    .join("\n\n");
+
+  const response = await (openai as any).responses.create({
+    model: process.env.OPENAI_MODEL ?? "gpt-4o",
+    input,
+    tools: [tool],
   });
-  const maybeOutput = (response as { output?: { content?: unknown } }).output?.content;
-  const output = isRecord(maybeOutput) ? maybeOutput : {};
-  logStage("search", "Deep search response received", {
-    resultCount: Array.isArray((response as { results?: unknown[] }).results)
-      ? (response as { results?: unknown[] }).results?.length ?? 0
-      : 0,
-    hasOutputContent: isRecord(maybeOutput),
-    outputKeys: Object.keys(output),
+
+  const text: string = (response as any).output_text ?? "";
+  const output = isRecord(extractJsonFromText(text)) ? (extractJsonFromText(text) as Record<string, unknown>) : {};
+
+  logStage("search", "Web search deep extraction response received", {
+    hasOutput: isRecord(output),
+    outputKeys: isRecord(output) ? Object.keys(output) : [],
   });
+
   return output;
 }
 
-async function enrichDistributor(distributor: Distributor): Promise<EnrichedDistributor> {
+async function enrichDistributor(
+  openai: OpenAI,
+  distributor: Distributor,
+): Promise<EnrichedDistributor> {
+  // `openai` is currently unused here, but we keep the signature so the file mirrors the Exa version.
+  // Enrichment is done by fetching contact-ish pages and extracting email/phone/address via regex.
   logStage("enrich", "Starting distributor enrichment", {
     name: distributor.name,
     website: distributor.website,
   });
+
   const urls = contactUrlCandidates(distributor.website);
   if (urls.length === 0) {
-    logStage("enrich", "Skipping enrichment: no valid URLs", {
-      name: distributor.name,
-    });
+    logStage("enrich", "Skipping enrichment: no valid URLs", { name: distributor.name });
     return { ...distributor, address: "", enrichmentSources: [] };
   }
 
   let extractedEmail = distributor.email;
   let extractedPhone = distributor.phone;
   let extractedAddress = "";
+  const enrichmentSources: string[] = [];
 
-  try {
-    const contentResponse = await exa.getContents(urls, { text: { maxCharacters: 5000 } });
-    const results = (contentResponse as { results?: Array<{ url?: string; text?: string }> })
-      .results;
-    const enrichmentSources: string[] = [];
+  for (const url of urls) {
+    enrichmentSources.push(url);
+    const text = await fetchText(url, 5000);
+    if (!text) continue;
 
-    for (const item of results ?? []) {
-      const text = asString(item.text);
-      const sourceUrl = asString(item.url);
-      if (sourceUrl) enrichmentSources.push(sourceUrl);
-      if (!text) continue;
-      if (!extractedEmail) extractedEmail = extractEmail(text);
-      if (!extractedPhone) extractedPhone = extractPhone(text);
-      if (!extractedAddress) extractedAddress = extractAddress(text);
-    }
-
-    logStage("enrich", "Distributor enrichment complete", {
-      name: distributor.name,
-      resolvedEmail: extractedEmail,
-      resolvedPhone: extractedPhone,
-      resolvedAddress: extractedAddress,
-      sourceCount: enrichmentSources.length,
-    });
-    return {
-      ...distributor,
-      email: extractedEmail,
-      phone: extractedPhone,
-      address: extractedAddress,
-      enrichmentSources: Array.from(new Set(enrichmentSources)),
-    };
-  } catch {
-    logStage("enrich", "Distributor enrichment failed; returning base data", {
-      name: distributor.name,
-      urls,
-    });
-    return { ...distributor, address: "", enrichmentSources: [] };
+    if (!extractedEmail) extractedEmail = extractEmail(text);
+    if (!extractedPhone) extractedPhone = extractPhone(text);
+    if (!extractedAddress) extractedAddress = extractAddress(text);
   }
+
+  logStage("enrich", "Distributor enrichment complete", {
+    name: distributor.name,
+    resolvedEmail: extractedEmail,
+    resolvedPhone: extractedPhone,
+    resolvedAddress: extractedAddress,
+    sourceCount: enrichmentSources.length,
+  });
+
+  return {
+    ...distributor,
+    email: extractedEmail,
+    phone: extractedPhone,
+    address: extractedAddress,
+    enrichmentSources: Array.from(new Set(enrichmentSources)),
+  };
 }
 
+const manufacturerSchema = {
+  type: "object",
+  properties: {
+    name: { type: "string" },
+    website: { type: "string" },
+    email: { type: "string" },
+    phone: { type: "string" },
+    HQ: { type: "string" },
+  },
+  required: ["name", "website", "email", "phone", "HQ"],
+} satisfies Record<string, unknown>;
+
+const distributorsSchema = {
+  type: "object",
+  properties: {
+    distributors: {
+      type: "array",
+      items: {
+        type: "object",
+        properties: {
+          name: { type: "string" },
+          email: { type: "string" },
+          website: { type: "string" },
+          phone: { type: "string" },
+          region: { type: "string" },
+        },
+        required: ["name", "email", "website", "phone", "region"],
+      },
+    },
+  },
+  required: ["distributors"],
+} satisfies Record<string, unknown>;
+
 /**
- * Expected file layout: one item line, then one manufacturer line; blank lines are ignored.
- * After stripping empties, lines go [item, mfg, item, mfg, ...].
+ * After stripping empty lines, lines go [item, mfg, item, mfg, ...].
  */
 function parseItemsTxt(content: string): Array<{ partNumber: string; manufacturerName: string }> {
   const lines = content
@@ -289,11 +336,23 @@ function parseItemsTxt(content: string): Array<{ partNumber: string; manufacture
   return pairs;
 }
 
-async function runPipeline(partNumber: string, manufacturerName: string): Promise<PipelineOutput> {
+const openai = new OpenAI({ apiKey: requiredEnv("OPENAI_API_KEY") });
+
+async function runPipeline(
+  partNumber: string,
+  manufacturerName: string,
+): Promise<PipelineOutput> {
   const productQuery = `${partNumber} ${manufacturerName}`.trim();
+
+  logStage("init", "Pipeline started", {
+    partNumber,
+    manufacturerName,
+    productQuery,
+  });
 
   logStage("manufacturer", "Resolving manufacturer information");
   const manufacturerRaw = await deepSearchObject(
+    openai,
     `Find official manufacturer company details for part ${partNumber} from ${manufacturerName}. Return only the actual manufacturer company.`,
     {
       category: "company",
@@ -313,13 +372,11 @@ async function runPipeline(partNumber: string, manufacturerName: string): Promis
       : null;
 
   const manufacturerDomain = getDomain(manufacturer?.website ?? manufacturerName);
-  logStage("manufacturer", "Manufacturer resolved", {
-    manufacturer,
-    manufacturerDomain,
-  });
+  logStage("manufacturer", "Manufacturer resolved", { manufacturer, manufacturerDomain });
 
   logStage("manufacturer_site_distributors", "Searching manufacturer-site distributors");
   const fromManufacturerSiteRaw = await deepSearchObject(
+    openai,
     `For part ${productQuery}, find authorized distributors listed by the manufacturer. Only include authorized distributors with email.`,
     {
       includeDomains: manufacturerDomain ? [manufacturerDomain] : undefined,
@@ -331,6 +388,7 @@ async function runPipeline(partNumber: string, manufacturerName: string): Promis
 
   logStage("open_web_distributors", "Searching open-web distributors");
   const fromOpenWebRaw = await deepSearchObject(
+    openai,
     `For part ${productQuery}, find authorized distributors worldwide.`,
     {
       category: "company",
@@ -340,23 +398,25 @@ async function runPipeline(partNumber: string, manufacturerName: string): Promis
     },
   );
 
-  const fromManufacturerSite =
-    (Array.isArray(fromManufacturerSiteRaw.distributors)
-      ? fromManufacturerSiteRaw.distributors
+  const fromManufacturerSite = (
+    Array.isArray((fromManufacturerSiteRaw as { distributors?: unknown }).distributors)
+      ? (fromManufacturerSiteRaw as { distributors: unknown[] }).distributors
       : []
-    )
-      .map(sanitizeDistributor)
-      .filter((d): d is Distributor => d !== null);
+  )
+    .map(sanitizeDistributor)
+    .filter((d): d is Distributor => d !== null);
   logStage("manufacturer_site_distributors", "Parsed distributors", {
     count: fromManufacturerSite.length,
   });
 
-  const fromOpenWeb = (Array.isArray(fromOpenWebRaw.distributors) ? fromOpenWebRaw.distributors : [])
+  const fromOpenWeb = (
+    Array.isArray((fromOpenWebRaw as { distributors?: unknown }).distributors)
+      ? (fromOpenWebRaw as { distributors: unknown[] }).distributors
+      : []
+  )
     .map(sanitizeDistributor)
     .filter((d): d is Distributor => d !== null);
-  logStage("open_web_distributors", "Parsed distributors", {
-    count: fromOpenWeb.length,
-  });
+  logStage("open_web_distributors", "Parsed distributors", { count: fromOpenWeb.length });
 
   const mergedMap = new Map<string, Distributor>();
   for (const distributor of [...fromManufacturerSite, ...fromOpenWeb]) {
@@ -371,19 +431,12 @@ async function runPipeline(partNumber: string, manufacturerName: string): Promis
     openWebCount: fromOpenWeb.length,
   });
 
-  logStage("enrich", "Starting enrichment for merged distributors", {
-    count: merged.length,
-  });
-  const enrichedMerged = await Promise.all(merged.map(enrichDistributor));
-  logStage("enrich", "Completed enrichment for merged distributors", {
-    count: enrichedMerged.length,
-  });
+  logStage("enrich", "Starting enrichment for merged distributors", { count: merged.length });
+  const enrichedMerged = await Promise.all(merged.map((d) => enrichDistributor(openai, d)));
+  logStage("enrich", "Completed enrichment for merged distributors", { count: enrichedMerged.length });
 
-  return {
-    input: {
-      partNumber,
-      manufacturerName,
-    },
+  const output: PipelineOutput = {
+    input: { partNumber, manufacturerName },
     manufacturer,
     manufacturerDomain,
     distributors: {
@@ -392,10 +445,20 @@ async function runPipeline(partNumber: string, manufacturerName: string): Promis
       merged: enrichedMerged,
     },
   };
+
+  logStage("done", "Pipeline complete", {
+    manufacturerFound: output.manufacturer !== null,
+    manufacturerDomain: output.manufacturerDomain,
+    fromManufacturerSite: output.distributors.fromManufacturerSite.length,
+    fromOpenWeb: output.distributors.fromOpenWeb.length,
+    merged: output.distributors.merged.length,
+  });
+
+  return output;
 }
 
 const itemsPath = process.env.ITEMS_FILE ?? join(process.cwd(), "items.txt");
-const resultsPath = process.env.RESULTS_JSON ?? join(process.cwd(), "exa-results.json");
+const resultsPath = process.env.RESULTS_JSON ?? join(process.cwd(), "openai-web-search-results.json");
 
 let items: Array<{ partNumber: string; manufacturerName: string }>;
 try {
@@ -406,9 +469,8 @@ try {
   logStage("init", `Could not read ${itemsPath}: ${message}. Falling back to env defaults.`);
   items = [
     {
-      partNumber:
-        process.env.PART_NUMBER ?? "TEKTON SHA04101 1/4 INCH DRIVE (F) X 3/8 INCH (M) ADAPTER",
-      manufacturerName: process.env.MANUFACTURER_NAME ?? "TEKTON",
+      partNumber: process.env.PART_NUMBER ?? "ALTECH CBF12-S88S0-05BPUR CABLE",
+      manufacturerName: process.env.MANUFACTURER_NAME ?? "ALTECH",
     },
   ];
 }
@@ -417,11 +479,24 @@ if (items.length === 0) {
   logStage("init", "No items parsed from file; using env defaults.");
   items = [
     {
-      partNumber:
-        process.env.PART_NUMBER ?? "TEKTON SHA04101 1/4 INCH DRIVE (F) X 3/8 INCH (M) ADAPTER",
-      manufacturerName: process.env.MANUFACTURER_NAME ?? "TEKTON",
+      partNumber: process.env.PART_NUMBER ?? "ALTECH CBF12-S88S0-05BPUR CABLE",
+      manufacturerName: process.env.MANUFACTURER_NAME ?? "ALTECH",
     },
   ];
+}
+
+const generatedAt = new Date().toISOString();
+const results: ItemResult[] = [];
+
+async function persistResultsToJson(): Promise<void> {
+  const payload: ResultsFile = {
+    generatedAt,
+    updatedAt: new Date().toISOString(),
+    itemsFile: itemsPath,
+    resultsJsonPath: resultsPath,
+    results,
+  };
+  await writeFile(resultsPath, JSON.stringify(payload, null, 2), "utf8");
 }
 
 logStage("init", "Pipeline batch started", {
@@ -429,8 +504,6 @@ logStage("init", "Pipeline batch started", {
   itemsFile: itemsPath,
   resultsJsonPath: resultsPath,
 });
-
-const results: ItemResult[] = [];
 
 for (let i = 0; i < items.length; i++) {
   const { partNumber, manufacturerName } = items[i]!;
@@ -453,17 +526,12 @@ for (let i = 0; i < items.length; i++) {
       error,
     });
   }
+  await persistResultsToJson();
+  logStage("persist", `Wrote ${results.length} result(s) to ${resultsPath}`);
 }
 
-const payload: ResultsFile = {
-  generatedAt: new Date().toISOString(),
-  itemsFile: itemsPath,
-  resultsJsonPath: resultsPath,
-  results,
-};
-
-await writeFile(resultsPath, JSON.stringify(payload, null, 2), "utf8");
-logStage("done", `Wrote ${results.length} result(s) to ${resultsPath}`, {
+logStage("done", "Batch complete", {
   successes: results.filter((r) => r.success).length,
   failures: results.filter((r) => !r.success).length,
 });
+

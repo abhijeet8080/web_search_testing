@@ -1,0 +1,2120 @@
+{
+  "generatedAt": "2026-04-02T16:09:19.629Z",
+  "updatedAt": "2026-04-02T16:15:29.502Z",
+  "itemsFile": "D:\\Projects\\web_search_testing\\exa-search-test\\items.txt",
+  "resultsJsonPath": "D:\\Projects\\web_search_testing\\exa-search-test\\firecrawl-results.json",
+  "results": [
+    {
+      "success": true,
+      "input": {
+        "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+        "manufacturerName": "PILZ"
+      },
+      "output": {
+        "partNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+        "manufacturer": {
+          "name": "Pilz GmbH & Co. KG",
+          "website": "https://www.pilz.com",
+          "email": "info@pilz.de",
+          "phone": "+49 711 3409-0"
+        },
+        "distributors": [
+          {
+            "name": "Pilz GmbH & Co. KG",
+            "email": "info@pilz.de",
+            "phone": "+49 711 3409-0",
+            "website": "https://www.pilz.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Technical Support",
+            "email": "support@pilz.com",
+            "phone": "+49 711 3409 444",
+            "website": "https://www.pilz.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Automation Safety L.P.",
+            "email": "info@pilzusa.com",
+            "phone": "+1 734 354-0272",
+            "website": "https://www.pilz.com/en-US",
+            "region": "USA",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Used Machines",
+            "email": "sales@used-machines.com",
+            "phone": "+49 4402 ...",
+            "website": "https://www.used-machines.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "ydy-Automation",
+            "email": "sales@ydyautomation.com",
+            "phone": "",
+            "website": "https://www.ebay.com/str/ydyautomation?_trksid=p4429486.m168239.l149266",
+            "region": "China",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "4D Controls",
+            "email": "sales@4dcontrols.com.au",
+            "phone": "",
+            "website": "https://www.4dcontrols.com.au/",
+            "region": "Australia",
+            "isAuthorized": false,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "eibmarkt®",
+            "email": "sales@eibmarkt.com",
+            "phone": "",
+            "website": "https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998",
+            "region": "Germany and worldwide",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Pilz Americas",
+            "email": "",
+            "phone": "+1 877- (745-9872)",
+            "website": "https://www.pilz.com",
+            "region": "United States",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 3,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Europe",
+            "email": "",
+            "phone": "+49 711 3409 444",
+            "website": "https://www.pilz.com",
+            "region": "Germany",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 3,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Pilz Asia Pacific",
+            "email": "",
+            "phone": "+65 6829 2920",
+            "website": "https://www.pilz.com",
+            "region": "Singapore",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 3,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "hyin-2012",
+            "email": "",
+            "phone": "",
+            "website": "https://www.ebay.com/str/hyin2012",
+            "region": "Worldwide",
+            "isAuthorized": false,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Pilz Distributors (various)",
+            "email": "",
+            "phone": "",
+            "website": "",
+            "region": "Americas, Europe, Asia Pacific",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 1,
+            "sourceLayer": "manufacturer_map"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 12,
+          "extractionTimeMs": 72986,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "deep_scrape",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Pilz – Safe automation, automation technology\" \"X4\" authorized distributor emai",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"X4\" Pilz – Safe automation, automation technology buy reseller contact phone",
+              "results": 7,
+              "topUrls": []
+            },
+            {
+              "query": "Pilz – Safe automation, automation technology X4 distributor network",
+              "results": 7,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"X4\" \"Pilz – Safe automation, automation",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://pilz.com",
+            "[1] https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+            "[1] https://www.ebay.com/itm/388928865779",
+            "[1] https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+            "[1] https://www.ebay.com/itm/226536535373",
+            "[1] https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+            "https://www.pilz.com/en-US/company/pilz-partner/distributors"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://pilz.com",
+            "[8] https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+            "[8] https://www.pilz.com/en-US/company/pilz-partner/distributors",
+            "[1] https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+            "[1] https://www.ebay.com/itm/388928865779",
+            "[1] https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+            "[1] https://www.ebay.com/itm/226536535373",
+            "[1] https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://www.pilz.com/en-US/company/pilz-partner/distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://4dcontrols.com/shop/774585-pilz-safety-relay-contact-expander-module-24vdc-2-5w-6a-4-n-o/?srsltid=AfmBOopcHtfke-rhncBmWWSIGUcjhApkt-Pm_TuDpwS_c6OvOhwgykSX",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://pilz.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 5
+            },
+            {
+              "url": "https://frdance.net/product/Relay-4-N-O-Contacts-22-5mm-Width-Contact-Expansion-Module/1300922",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.pilz.com/en-INT/company/pilz-partner/distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 2
+            },
+            {
+              "url": "https://www.ebay.com/itm/388928865779",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://coworx.no/24VDC-4-Normally-Open-Contacts-22-5mm-Width-New-Part-1188010",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.used-machines.com/pilz-pze+x4+24vdc+4n%2Fo/gm-196-5357",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.ebay.com/itm/226536535373",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.eibabo.com/en/pilz/?p=9&ffFollowSearch=9998",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.pilz.com/en-US",
+              "source": "search",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 14,
+          "afterValidate": {
+            "total": 12,
+            "withEmail": 7
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [
+            {
+              "distributor": "Pilz Americas",
+              "domain": "pilz.com",
+              "contactUrl": "https://www.pilz.com/en-BE/eshop/Relay-modules/Safety-relays-protection-relays/PNOZsigma-safety-relays/Contact-expansions/c/0010000200700380GA"
+            },
+            {
+              "distributor": "Pilz Europe",
+              "domain": "pilz.com",
+              "contactUrl": "https://www.pilz.com/en-BE/eshop/Relay-modules/Safety-relays-protection-relays/PNOZsigma-safety-relays/Contact-expansions/c/0010000200700380GA"
+            },
+            {
+              "distributor": "Pilz Asia Pacific",
+              "domain": "pilz.com",
+              "contactUrl": "https://www.pilz.com/en-BE/eshop/Relay-modules/Safety-relays-protection-relays/PNOZsigma-safety-relays/Contact-expansions/c/0010000200700380GA"
+            },
+            {
+              "distributor": "hyin-2012",
+              "domain": "ebay.com",
+              "contactUrl": "https://partnernetwork.ebay.com/resources/contact-support"
+            }
+          ],
+          "enrichmentSummaries": [
+            {
+              "distributor": "Pilz Asia Pacific",
+              "foundEmail": "",
+              "foundPhone": "+65 6829 2920"
+            },
+            {
+              "distributor": "Pilz Americas",
+              "foundEmail": "",
+              "foundPhone": "+1 877- (745-9872)"
+            },
+            {
+              "distributor": "hyin-2012",
+              "foundEmail": "",
+              "foundPhone": ""
+            },
+            {
+              "distributor": "Pilz Europe",
+              "foundEmail": "",
+              "foundPhone": "+49 711 3409 444"
+            }
+          ],
+          "afterLayer4": {
+            "total": 12,
+            "withEmail": 7
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 12,
+          "topScores": [
+            "Pilz GmbH & Co. KG [6] info@pilz.de",
+            "Pilz Technical Support [6] support@pilz.com",
+            "Pilz Automation Safety L.P. [6] info@pilzusa.com",
+            "Used Machines [6] sales@used-machines.com",
+            "ydy-Automation [5] sales@ydyautomation.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "PNOZ X4 SAFETY RELAY 1/2 CHANNEL WIRING AUTO 45MM WIDTH E STOP MONITOR PNOZ X4 24VDC 3N/O 1N/C",
+          "normalizedManufacturer": "PILZ",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"PILZ\" \"X4\" authorized distributor email contact",
+            "\"X4\" PILZ buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"X4\" \"PILZ\" distributor",
+            "PILZ X4 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50, EATON, 05146555-5591 / 5SC750I",
+        "manufacturerName": "EATON CORPORATION"
+      },
+      "output": {
+        "partNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50 EATON 05146555-5591 / 5SC750I",
+        "manufacturer": {
+          "name": "Eaton",
+          "website": "https://tripplite.eaton.com",
+          "email": "cpdipresaleshelp@eaton.com",
+          "phone": "+1 773-869-1776"
+        },
+        "distributors": [
+          {
+            "name": "Eaton",
+            "email": "cpdipresaleshelp@eaton.com",
+            "phone": "+1 773-869-1776",
+            "website": "https://tripplite.eaton.com",
+            "region": "United States",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          },
+          {
+            "name": "Eaton Power Distribution Partners",
+            "email": "australiasales@eaton.com",
+            "phone": "+61 1300 332 866",
+            "website": "https://www.eaton.com",
+            "region": "Australia and New Zealand",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 6,
+            "sourceLayer": "manufacturer_map"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 6,
+          "extractionTimeMs": 47998,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Electronic components contact information\" \"C-H5SC750I\" authorized distributor ",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"C-H5SC750I\" Electronic components contact information buy reseller contact phon",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Electronic components contact information C-H5SC750I distributor network",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"C-H5SC750I\" \"Electronic components cont",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://eaton.com"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.eaton.com/us/en-us/support/where-to-buy/crouse-hinds-series-ceag-portfolio---distributor-partners-by-reg.html",
+            "https://tripplite.eaton.com/support/pre-sales-technical-support",
+            "https://www.eaton.com/us/en-us/products/electronic-components/authorized-distributors.html",
+            "https://www.eaton.com/ae/en-gb/support/partner-locator/it-distributor.html",
+            "https://www.eaton.com/au/en-gb/support/contact-me/distributor-locator-redirect-pd.html"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://eaton.com",
+            "[8] https://www.eaton.com/us/en-us/support/where-to-buy/crouse-hinds-series-ceag-portfolio---distributor-partners-by-reg.html",
+            "[8] https://tripplite.eaton.com/support/pre-sales-technical-support",
+            "[8] https://www.eaton.com/us/en-us/products/electronic-components/authorized-distributors.html",
+            "[8] https://www.eaton.com/ae/en-gb/support/partner-locator/it-distributor.html",
+            "[8] https://www.eaton.com/au/en-gb/support/contact-me/distributor-locator-redirect-pd.html"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://www.eaton.com/au/en-gb/support/contact-me/distributor-locator-redirect-pd.html",
+              "source": "manufacturer_map",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://tripplite.eaton.com/support/pre-sales-technical-support",
+              "source": "manufacturer_map",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 2,
+          "afterValidate": {
+            "total": 2,
+            "withEmail": 2
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 2,
+            "withEmail": 2
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 2,
+          "topScores": [
+            "Eaton [6] cpdipresaleshelp@eaton.com",
+            "Eaton Power Distribution Partners [6] australiasales@eaton.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "C-H5SC750I POWERWARE UPS MOD PW5115-750I USB 220-240 750VA/50 EATON 05146555-5591 / 5SC750I",
+          "normalizedManufacturer": "EATON CORPORATION",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"EATON CORPORATION\" \"C-H5SC750I\" authorized distributor email contact",
+            "\"C-H5SC750I\" EATON CORPORATION buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"C-H5SC750I\" \"EATON CORPORATION\" distributor",
+            "EATON CORPORATION C-H5SC750I distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "TEKA 9412000002, FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH: 1200MM, INCLUDES FASTENING SCREW",
+        "manufacturerName": "TEKA"
+      },
+      "output": {
+        "partNumber": "TEKA 9412000002 FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH 1200MM INCLUDES FASTENING SCREW",
+        "manufacturer": {
+          "name": "Customer Services – Official Technical Support",
+          "website": "https://teka.com",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 8,
+          "extractionTimeMs": 72146,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"Customer Services – Official Technical Support\" \"9412000002\" authorized distrib",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"9412000002\" Customer Services – Official Technical Support buy reseller contact",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"9412000002\" \"Customer Services – Offici",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Customer Services – Official Technical Support 9412000002 distributor network",
+              "results": 7,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://teka.com",
+            "[1] https://telkonet.com/contact-us/",
+            "[1] https://www.doverfuelingsolutions.com/na/en/contact-us.html",
+            "[1] https://www.truemfg.com/support/technical/",
+            "[1] https://automation.honeywell.com/us/en/services/warehouse-automation/24x7-technical-support",
+            "[1] https://www.snapav.com/shop/en/snapav/contact"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://teka.com",
+            "[1] https://telkonet.com/contact-us/",
+            "[1] https://www.doverfuelingsolutions.com/na/en/contact-us.html",
+            "[1] https://www.truemfg.com/support/technical/",
+            "[1] https://automation.honeywell.com/us/en/services/warehouse-automation/24x7-technical-support",
+            "[1] https://www.snapav.com/shop/en/snapav/contact",
+            "[1] https://vendnetusa.com/pages/contact-us?srsltid=AfmBOopwdVgAUVSoBO9W8n12qeRCuWyoIeNa05hnjib9mdc56DKWPZLr",
+            "[1] https://www.belden.com/support/contact-us"
+          ],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 0,
+          "topScores": []
+        },
+        "layer0": {
+          "normalizedPartNumber": "TEKA 9412000002 FILTER CARTRIDGE BRACKET FOR CARTRIDGE LENGTH 1200MM INCLUDES FASTENING SCREW",
+          "normalizedManufacturer": "TEKA",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"TEKA\" \"9412000002\" authorized distributor email contact",
+            "\"9412000002\" TEKA buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"9412000002\" \"TEKA\" distributor",
+            "TEKA 9412000002 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT, 1000 GRAM",
+        "manufacturerName": "MCMASTER CARR"
+      },
+      "output": {
+        "partNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT 1000 GRAM",
+        "manufacturer": {
+          "name": "McMaster-Carr",
+          "website": "https://www.mcmaster.com",
+          "email": "chi.sales@mcmaster.com",
+          "phone": ""
+        },
+        "distributors": [
+          {
+            "name": "McMaster-Carr",
+            "email": "chi.sales@mcmaster.com",
+            "phone": "",
+            "website": "https://www.mcmaster.com",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 4,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 8,
+          "extractionTimeMs": 41086,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"McMaster\" \"1777T31\" authorized distributor email contact",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "McMaster 1777T31 distributor network",
+              "results": 6,
+              "topUrls": []
+            },
+            {
+              "query": "\"1777T31\" McMaster buy reseller contact phone",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"1777T31\" \"McMaster\" distributor",
+              "results": 0,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://mcmaster.com",
+            "[1] https://www.mcmaster.com/",
+            "[1] https://www.mcmaster.com/products/y-distributors/",
+            "[1] https://www.mcmaster.com/products/air-distributors/",
+            "[1] https://www.mcmaster.com/products/distribution-blocks/",
+            "[1] https://www.mcmaster.com/products/distribution-bars/"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.mcmaster.com/products/y-distributors"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://mcmaster.com",
+            "[8] https://www.mcmaster.com/products/y-distributors",
+            "[1] https://www.mcmaster.com/",
+            "[1] https://www.mcmaster.com/products/y-distributors/",
+            "[1] https://www.mcmaster.com/products/air-distributors/",
+            "[1] https://www.mcmaster.com/products/distribution-blocks/",
+            "[1] https://www.mcmaster.com/products/distribution-bars/",
+            "[1] https://www.mcmaster.com/products/distributor-point-files/"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://www.mcmaster.com/products/air-distributors/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/y-distributors/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://mcmaster.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distribution-blocks/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/y-distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distributor-point-files/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/distribution-bars/",
+              "source": "search",
+              "distributorsFound": 0
+            }
+          ],
+          "rawDistributorCount": 1,
+          "afterValidate": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 1,
+            "withEmail": 1
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 1,
+          "topScores": [
+            "McMaster-Carr [4] chi.sales@mcmaster.com"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "MCMASTER-CARR 1777T31 TEST WEIGHT 1000 GRAM",
+          "normalizedManufacturer": "MCMASTER CARR",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"MCMASTER CARR\" \"1777T31\" authorized distributor email contact",
+            "\"1777T31\" MCMASTER CARR buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"1777T31\" \"MCMASTER CARR\" distributor",
+            "MCMASTER CARR 1777T31 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "MCMASTER-CARR K2535-1 TIG Welder",
+        "manufacturerName": "MCMASTER CARR"
+      },
+      "output": {
+        "partNumber": "MCMASTER-CARR K2535-1 TIG Welder",
+        "manufacturer": {
+          "name": "McMaster-Carr",
+          "website": "https://www.mcmaster.com/",
+          "email": "chi.sales@mcmaster.com",
+          "phone": "1772802350"
+        },
+        "distributors": [
+          {
+            "name": "Welding Outfitters",
+            "email": "support@weldingoutfitter.com",
+            "phone": "+1 (641) 201-1352",
+            "website": "https://www.weldingoutfitter.com/",
+            "region": "USA",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Arc Solutions",
+            "email": "sales@arcsolinc.com",
+            "phone": "+1-234-567-8901",
+            "website": "https://shop.arcsolinc.com",
+            "region": "United States",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "McMaster-Carr",
+            "email": "chi.sales@mcmaster.com",
+            "phone": "1772802350",
+            "website": "https://www.mcmaster.com/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Industrial Safety",
+            "email": "quotes@industrialsafety.com",
+            "phone": "",
+            "website": "https://industrialsafety.com",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 4,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Lincoln",
+            "email": "",
+            "phone": "1744693200000",
+            "website": "https://www.mcmaster.com/products/tig-welders/manufacturer-model-number~k2535-1/manufacturer~lincoln/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "ESAB",
+            "email": "",
+            "phone": "1744693200000",
+            "website": "https://www.mcmaster.com/products/welders/manufacturer~esab/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Hypertherm",
+            "email": "",
+            "phone": "1744693200000",
+            "website": "https://www.mcmaster.com/products/welders/manufacturer~hypertherm/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Hobart",
+            "email": "",
+            "phone": "1744693200000",
+            "website": "https://www.mcmaster.com/products/welders/manufacturer~hobart/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Bernard",
+            "email": "",
+            "phone": "1744693200000",
+            "website": "https://www.mcmaster.com/products/welders/manufacturer~bernard/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 2,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 10,
+          "extractionTimeMs": 83162,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "map",
+            "extract",
+            "deep_scrape",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "\"McMaster\" \"K2535-1\" authorized distributor email contact",
+              "results": 1,
+              "topUrls": []
+            },
+            {
+              "query": "\"K2535-1\" McMaster buy reseller contact phone",
+              "results": 1,
+              "topUrls": []
+            },
+            {
+              "query": "site:octopart.com OR site:findchips.com \"K2535-1\" \"McMaster\" distributor",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "McMaster K2535-1 distributor network",
+              "results": 7,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://mcmaster.com",
+            "[1] https://www.mcmaster.com/turbotorch-a-11-air%2Facetylene-torch-replacement-tips",
+            "[1] https://www.mcmaster.com/products/tig-welders/manufacturer-model-number~k2535-1/",
+            "[1] https://www.mcmaster.com/products/welding-supplies/",
+            "[1] https://www.mcmaster.com/products/welders/",
+            "[1] https://www.mcmaster.com/"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": [
+            "https://www.mcmaster.com/products/y-distributors"
+          ]
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://mcmaster.com",
+            "[8] https://www.mcmaster.com/products/y-distributors",
+            "[1] https://www.mcmaster.com/turbotorch-a-11-air%2Facetylene-torch-replacement-tips",
+            "[1] https://www.mcmaster.com/products/tig-welders/manufacturer-model-number~k2535-1/",
+            "[1] https://www.mcmaster.com/products/welding-supplies/",
+            "[1] https://www.mcmaster.com/products/welders/",
+            "[1] https://www.mcmaster.com/",
+            "[1] https://www.weldingoutfitter.com/products/lincoln-k2535-2-precision-tig-225-tig-welder-w-ready-pak-and-cart?srsltid=AfmBOooIc0iXonxyzLEy9pV_iNViUYvJmsImudixM13KaU3Lq2QtIY4l"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://mcmaster.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/y-distributors",
+              "source": "manufacturer_map",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/welders/",
+              "source": "search",
+              "distributorsFound": 7
+            },
+            {
+              "url": "https://www.mcmaster.com/turbotorch-a-11-air%2Facetylene-torch-replacement-tips",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/products/tig-welders/manufacturer-model-number~k2535-1/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.mcmaster.com/products/welding-supplies/",
+              "source": "search",
+              "distributorsFound": 0
+            },
+            {
+              "url": "https://www.mcmaster.com/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://shop.arcsolinc.com/products/lincoln-electric-precision-tig%C2%AE-225-tig-welder-ready-pak%C2%AE-k2535-1?srsltid=AfmBOoo0uzGlXS5fQHfoCGG9QICmcYhUgNm7pzlZeiNC3wH7M-1EevBY",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://industrialsafety.com/lincoln-electric-k2535-1-precision-tig-225-welder-gtaw-1-phase-includes-accessories.html?srsltid=AfmBOoqbBHSz5fnUtWPSU2UFU4XVQmHXToV2THgmNHp-FOI7qaNdHrvb",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.weldingoutfitter.com/products/lincoln-k2535-2-precision-tig-225-tig-welder-w-ready-pak-and-cart?srsltid=AfmBOooIc0iXonxyzLEy9pV_iNViUYvJmsImudixM13KaU3Lq2QtIY4l",
+              "source": "search",
+              "distributorsFound": 1
+            }
+          ],
+          "rawDistributorCount": 12,
+          "afterValidate": {
+            "total": 11,
+            "withEmail": 4
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [
+            {
+              "distributor": "Lincoln",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://www.mcmaster.com/products/contact-sensors"
+            },
+            {
+              "distributor": "ESAB",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://www.mcmaster.com/products/contact-sensors"
+            },
+            {
+              "distributor": "Miller",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://mcmaster.com"
+            },
+            {
+              "distributor": "Hypertherm",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://www.mcmaster.com/products/contact-sensors"
+            },
+            {
+              "distributor": "Hobart",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://www.mcmaster.com/products/contact-sensors"
+            },
+            {
+              "distributor": "Bernard",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://www.mcmaster.com/products/contact-sensors"
+            },
+            {
+              "distributor": "Tregaskiss",
+              "domain": "mcmaster.com",
+              "contactUrl": "https://mcmaster.com"
+            }
+          ],
+          "enrichmentSummaries": [
+            {
+              "distributor": "Miller",
+              "foundEmail": "chi.sales@mcmaster.com",
+              "foundPhone": "1772802350"
+            },
+            {
+              "distributor": "Tregaskiss",
+              "foundEmail": "chi.sales@mcmaster.com",
+              "foundPhone": "1772802350"
+            },
+            {
+              "distributor": "Hypertherm",
+              "foundEmail": "",
+              "foundPhone": "1744693200000"
+            },
+            {
+              "distributor": "Lincoln",
+              "foundEmail": "",
+              "foundPhone": "1744693200000"
+            },
+            {
+              "distributor": "Hobart",
+              "foundEmail": "",
+              "foundPhone": "1744693200000"
+            },
+            {
+              "distributor": "ESAB",
+              "foundEmail": "",
+              "foundPhone": "1744693200000"
+            },
+            {
+              "distributor": "Bernard",
+              "foundEmail": "",
+              "foundPhone": "1744693200000"
+            }
+          ],
+          "afterLayer4": {
+            "total": 11,
+            "withEmail": 6
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 11,
+          "topScores": [
+            "Welding Outfitters [6] support@weldingoutfitter.com",
+            "Arc Solutions [6] sales@arcsolinc.com",
+            "McMaster-Carr [5] chi.sales@mcmaster.com",
+            "Industrial Safety [4] quotes@industrialsafety.com",
+            "Lincoln [2] "
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "MCMASTER-CARR K2535-1 TIG Welder",
+          "normalizedManufacturer": "MCMASTER CARR",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"MCMASTER CARR\" \"K2535-1\" authorized distributor email contact",
+            "\"K2535-1\" MCMASTER CARR buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"K2535-1\" \"MCMASTER CARR\" distributor",
+            "MCMASTER CARR K2535-1 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "VENTURE LIGHTING F73190,  LAMP, MP 400W/ED37/PS/BU/950",
+        "manufacturerName": "VENTURE LIGHTINGS"
+      },
+      "output": {
+        "partNumber": "VENTURE LIGHTING F73190 LAMP MP 400W/ED37/PS/BU/950",
+        "manufacturer": {
+          "name": "Venture Lighting Europe Ltd.",
+          "website": "www.venturelightingeurope.com",
+          "email": "sales@venturelighting.co.uk",
+          "phone": "+44 (0) 1923 692600"
+        },
+        "distributors": [
+          {
+            "name": "Venture Lighting Europe Ltd.",
+            "email": "sales@venturelighting.co.uk",
+            "phone": "+44 (0) 1923 692600",
+            "website": "www.venturelightingeurope.com",
+            "region": "Europe",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting Australia",
+            "email": "sales@adlt.com.au",
+            "phone": "+(61) 3-9800-5600",
+            "website": "www.venturelighting.com.au",
+            "region": "Australia",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting Asia",
+            "email": "sales@adlt.com.sg",
+            "phone": "(65) 6844-2338",
+            "website": "venturelighting.com.sg",
+            "region": "Singapore",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting Power Systems, North America Inc.",
+            "email": "canadaorders@venturelighting.com",
+            "phone": "800-451-2606",
+            "website": "venturelighting.com",
+            "region": "Canada",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting International FZE",
+            "email": "sales@venturelighting.ae",
+            "phone": "(971-4) 883-7370",
+            "website": "venturelightingme.com",
+            "region": "Middle East",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 6,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting",
+            "email": "centralorders@venturelighting.com",
+            "phone": "+1-800-451-2606",
+            "website": "https://www.venturelighting.com",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": true,
+            "authorizedConfidence": "high",
+            "dataCompleteness": 5,
+            "sourceLayer": "manufacturer_known"
+          },
+          {
+            "name": "Venture Lighting International",
+            "email": "neorders@venturelighting.com",
+            "phone": "800-451-2606",
+            "website": "",
+            "region": "United States of America",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting International",
+            "email": "jim.mcphillips@gmail.com",
+            "phone": "305-269-8114",
+            "website": "",
+            "region": "Latin America",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting China",
+            "email": "wu.haifeng@venturelighting.com",
+            "phone": "+86 135 6497 1000",
+            "website": "",
+            "region": "China",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting Japan",
+            "email": "apl_inquiries@aplmaterials.com",
+            "phone": "+81-6-6221-5535",
+            "website": "",
+            "region": "Japan",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 5,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting",
+            "email": "sales@venturelighting.com",
+            "phone": "",
+            "website": "https://www.venturelighting.com/",
+            "region": "",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 4,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting South Africa (PTY.) Ltd.",
+            "email": "",
+            "phone": "+27 21-709-0180",
+            "website": "venturelighting.co.za",
+            "region": "South Africa",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 3,
+            "sourceLayer": "search"
+          },
+          {
+            "name": "Venture Lighting India LTD.",
+            "email": "",
+            "phone": "+91 44 2262 3094  +91 80 4866 7670",
+            "website": "venturelighting.in",
+            "region": "India",
+            "isAuthorized": true,
+            "stockAvailable": false,
+            "authorizedConfidence": "low",
+            "dataCompleteness": 3,
+            "sourceLayer": "search"
+          }
+        ],
+        "metadata": {
+          "sourcesSearched": 7,
+          "extractionTimeMs": 38766,
+          "layersUsed": [
+            "normalize",
+            "normalize_resolve",
+            "search",
+            "extract",
+            "deep_scrape",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [
+            {
+              "query": "site:octopart.com OR site:findchips.com \"F73190\" \"Venture Lighting\" distributor",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"Venture Lighting\" \"F73190\" authorized distributor email contact",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "\"F73190\" Venture Lighting buy reseller contact phone",
+              "results": 0,
+              "topUrls": []
+            },
+            {
+              "query": "Venture Lighting F73190 distributor network",
+              "results": 7,
+              "topUrls": []
+            }
+          ],
+          "mergedUniqueUrls": [
+            "[10] https://venturelighting.com",
+            "[1] https://www.venturelighting.com/",
+            "[1] https://www.venturelighting.com/ws/documents/catalogs/2024-usa-catalog.pdf",
+            "[1] https://www.venturelighting.com/contact/",
+            "[1] https://www.venturelighting.com/resources/",
+            "[1] https://www.venturelighting.com/media/assets/led-data/downloads/Venture_LED-HID_Catalog_v6.pdf"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://venturelighting.com",
+            "[1] https://www.venturelighting.com/",
+            "[1] https://www.venturelighting.com/ws/documents/catalogs/2024-usa-catalog.pdf",
+            "[1] https://www.venturelighting.com/contact/",
+            "[1] https://www.venturelighting.com/resources/",
+            "[1] https://www.venturelighting.com/media/assets/led-data/downloads/Venture_LED-HID_Catalog_v6.pdf",
+            "[1] https://www.venturelighting.com/media/assets/led-data/catalog-downloads/LED-Lamps.pdf"
+          ],
+          "scrapeSummaries": [
+            {
+              "url": "https://www.venturelighting.com/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.venturelighting.com/ws/documents/catalogs/2024-usa-catalog.pdf",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.venturelighting.com/resources/",
+              "source": "search",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://venturelighting.com",
+              "source": "manufacturer_known",
+              "distributorsFound": 1
+            },
+            {
+              "url": "https://www.venturelighting.com/contact/",
+              "source": "search",
+              "distributorsFound": 11
+            }
+          ],
+          "rawDistributorCount": 15,
+          "afterValidate": {
+            "total": 13,
+            "withEmail": 11
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [
+            {
+              "distributor": "Venture Lighting South Africa (PTY.) Ltd.",
+              "domain": "venturelighting.co.za",
+              "contactUrl": "https://venturelighting.co.za"
+            },
+            {
+              "distributor": "Venture Lighting India LTD.",
+              "domain": "venturelighting.in",
+              "contactUrl": "https://venturelighting.in"
+            }
+          ],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 13,
+            "withEmail": 11
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 13,
+          "topScores": [
+            "Venture Lighting Europe Ltd. [6] sales@venturelighting.co.uk",
+            "Venture Lighting Australia [6] sales@adlt.com.au",
+            "Venture Lighting Asia [6] sales@adlt.com.sg",
+            "Venture Lighting Power Systems, North America Inc. [6] canadaorders@venturelighting.com",
+            "Venture Lighting International FZE [6] sales@venturelighting.ae"
+          ]
+        },
+        "layer0": {
+          "normalizedPartNumber": "VENTURE LIGHTING F73190 LAMP MP 400W/ED37/PS/BU/950",
+          "normalizedManufacturer": "VENTURE LIGHTINGS",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"VENTURE LIGHTINGS\" \"F73190\" authorized distributor email contact",
+            "\"F73190\" VENTURE LIGHTINGS buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"F73190\" \"VENTURE LIGHTINGS\" distributor",
+            "VENTURE LIGHTINGS F73190 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "LEESON ELECTRIC C42D17FK1C DIRECT CURRENT DC MOTOR-SCR RATED - PERMANENT MAGNET, BRUSHED, 90 V, 1750 RPM RPM, TEFC(TOTALLY ENCLOSED FAN COOLED) (MPN 098000.00)",
+        "manufacturerName": "LEESON ELECTRIC"
+      },
+      "output": {
+        "partNumber": "LEESON ELECTRIC C42D17FK1C DIRECT CURRENT DC MOTOR-SCR RATED - PERMANENT MAGNET BRUSHED 90 V 1750 RPM RPM TEFC TOTALLY ENCLOSED FAN COOLED MPN 098000.00",
+        "manufacturer": {
+          "name": "LEESON ELECTRIC",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 4080,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "LEESON ELECTRIC C42D17FK1C DIRECT CURRENT DC MOTOR-SCR RATED - PERMANENT MAGNET BRUSHED 90 V 1750 RPM RPM TEFC TOTALLY ENCLOSED FAN COOLED MPN 098000.00",
+          "normalizedManufacturer": "LEESON ELECTRIC",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"LEESON ELECTRIC\" \"C42D17FK1C\" authorized distributor email contact",
+            "\"C42D17FK1C\" LEESON ELECTRIC buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"C42D17FK1C\" \"LEESON ELECTRIC\" distributor",
+            "LEESON ELECTRIC C42D17FK1C distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "3M SCOTCH BRITE SIZE WIDTH 6\" X LENGTH 30FT/ROLL",
+        "manufacturerName": "3M SCOTCH BRITE"
+      },
+      "output": {
+        "partNumber": "3M SCOTCH BRITE SIZE WIDTH 6 X LENGTH 30FT/ROLL",
+        "manufacturer": {
+          "name": "3M SCOTCH BRITE",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 3170,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "3M SCOTCH BRITE SIZE WIDTH 6 X LENGTH 30FT/ROLL",
+          "normalizedManufacturer": "3M SCOTCH BRITE",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"3M SCOTCH BRITE\" \"3M\" authorized distributor email contact",
+            "\"3M\" 3M SCOTCH BRITE buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"3M\" \"3M SCOTCH BRITE\" distributor",
+            "3M SCOTCH BRITE 3M distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "3M DBI-SALA 1103071,3M DBI-SALA EXOFIT NEX COMFORT ARC FLASH VEST POSITIONING SAFETY HARNESS 1103071, MEDIUM",
+        "manufacturerName": "3M DBI-SALA"
+      },
+      "output": {
+        "partNumber": "3M DBI-SALA 1103071 3M DBI-SALA EXOFIT NEX COMFORT ARC FLASH VEST POSITIONING SAFETY HARNESS 1103071 MEDIUM",
+        "manufacturer": {
+          "name": "3M DBI-SALA",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 629,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "3M DBI-SALA 1103071 3M DBI-SALA EXOFIT NEX COMFORT ARC FLASH VEST POSITIONING SAFETY HARNESS 1103071 MEDIUM",
+          "normalizedManufacturer": "3M DBI-SALA",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"3M DBI-SALA\" \"3M\" authorized distributor email contact",
+            "\"3M\" 3M DBI-SALA buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"3M\" \"3M DBI-SALA\" distributor",
+            "3M DBI-SALA 3M distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "BLACK DECKER High Velocity Floor Fan, 15.6\" Diameter Freestanding Fan, 5 Plastic Blades, 3-Speeds, 90-Degree Tilt Adjustment, For Use In Bedroom, Home or Office, 5.5 lbs., Gray/Black, BFF16B",
+        "manufacturerName": "BLACK AND DECKER"
+      },
+      "output": {
+        "partNumber": "BLACK DECKER High Velocity Floor Fan 15.6 Diameter Freestanding Fan 5 Plastic Blades 3-Speeds 90-Degree Tilt Adjustment For Use In Bedroom Home or Office 5.5 lbs. Gray/Black BFF16B",
+        "manufacturer": {
+          "name": "BLACK AND DECKER",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 930,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "BLACK DECKER High Velocity Floor Fan 15.6 Diameter Freestanding Fan 5 Plastic Blades 3-Speeds 90-Degree Tilt Adjustment For Use In Bedroom Home or Office 5.5 lbs. Gray/Black BFF16B",
+          "normalizedManufacturer": "BLACK AND DECKER",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"BLACK AND DECKER\" \"15.6\" authorized distributor email contact",
+            "\"15.6\" BLACK AND DECKER buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"15.6\" \"BLACK AND DECKER\" distributor",
+            "BLACK AND DECKER 15.6 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "PARKER RX23-005-L2 BAYSIDE RIGHT ANGLE GEARHEAD",
+        "manufacturerName": "PARKER"
+      },
+      "output": {
+        "partNumber": "PARKER RX23-005-L2 BAYSIDE RIGHT ANGLE GEARHEAD",
+        "manufacturer": {
+          "name": "PARKER",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 1370,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "PARKER RX23-005-L2 BAYSIDE RIGHT ANGLE GEARHEAD",
+          "normalizedManufacturer": "PARKER",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"PARKER\" \"RX23-005-L2\" authorized distributor email contact",
+            "\"RX23-005-L2\" PARKER buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"RX23-005-L2\" \"PARKER\" distributor",
+            "PARKER RX23-005-L2 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "BONDHUS 17150 1.5MM ALLEN KEY (SHORT ,CHROME PLATED)",
+        "manufacturerName": "BONDHUS"
+      },
+      "output": {
+        "partNumber": "BONDHUS 17150 1.5MM ALLEN KEY SHORT CHROME PLATED",
+        "manufacturer": {
+          "name": "BONDHUS",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 637,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "BONDHUS 17150 1.5MM ALLEN KEY SHORT CHROME PLATED",
+          "normalizedManufacturer": "BONDHUS",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"BONDHUS\" \"17150\" authorized distributor email contact",
+            "\"17150\" BONDHUS buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"17150\" \"BONDHUS\" distributor",
+            "BONDHUS 17150 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "MOLEX 0039013028 2 WAY MINI FIT CONNECTOR M/F",
+        "manufacturerName": "MOLEX"
+      },
+      "output": {
+        "partNumber": "MOLEX 0039013028 2 WAY MINI FIT CONNECTOR M/F",
+        "manufacturer": {
+          "name": "Molex",
+          "website": "https://molex.com",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 1,
+          "extractionTimeMs": 1077,
+          "layersUsed": [
+            "normalize",
+            "search",
+            "extract",
+            "validate"
+          ],
+          "warnings": []
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": [
+            "[10] https://molex.com"
+          ]
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [
+            "[10] https://molex.com"
+          ],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {
+          "parsedCount": 0,
+          "topScores": []
+        },
+        "layer0": {
+          "normalizedPartNumber": "MOLEX 0039013028 2 WAY MINI FIT CONNECTOR M/F",
+          "normalizedManufacturer": "Molex",
+          "manufacturerDomain": "molex.com",
+          "queryVariants": [
+            "\"Molex\" \"0039013028\" authorized distributor email contact",
+            "\"0039013028\" Molex buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"0039013028\" \"Molex\" distributor",
+            "Molex 0039013028 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "STMICROELECTRONICS 208223800, COML,IC,VOLTAGE REGULATORS,STMICROELECTRONICS,L7805CV",
+        "manufacturerName": "STMICROELECTRONICS"
+      },
+      "output": {
+        "partNumber": "STMICROELECTRONICS 208223800 COML IC VOLTAGE REGULATORS STMICROELECTRONICS L7805CV",
+        "manufacturer": {
+          "name": "STMICROELECTRONICS",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 831,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "STMICROELECTRONICS 208223800 COML IC VOLTAGE REGULATORS STMICROELECTRONICS L7805CV",
+          "normalizedManufacturer": "STMICROELECTRONICS",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"STMICROELECTRONICS\" \"208223800\" authorized distributor email contact",
+            "\"208223800\" STMICROELECTRONICS buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"208223800\" \"STMICROELECTRONICS\" distributor",
+            "STMICROELECTRONICS 208223800 distributor network"
+          ]
+        }
+      }
+    },
+    {
+      "success": true,
+      "input": {
+        "partNumber": "THERMAL TRANSFER PRODUCTS 100726262,COML,HEATER,THERMAL,SSC-624-1.3-4-F",
+        "manufacturerName": "THERMAL TRANSFER"
+      },
+      "output": {
+        "partNumber": "THERMAL TRANSFER PRODUCTS 100726262 COML HEATER THERMAL SSC-624-1.3-4-F",
+        "manufacturer": {
+          "name": "THERMAL TRANSFER",
+          "website": "",
+          "email": "",
+          "phone": ""
+        },
+        "distributors": [],
+        "metadata": {
+          "sourcesSearched": 0,
+          "extractionTimeMs": 684,
+          "layersUsed": [
+            "normalize",
+            "search"
+          ],
+          "warnings": [
+            "No URLs found — returning empty result"
+          ]
+        }
+      },
+      "layerDetails": {
+        "layer1": {
+          "querySummaries": [],
+          "mergedUniqueUrls": []
+        },
+        "layer2": {
+          "manufacturerMapLinks": [],
+          "selectedPages": []
+        },
+        "layer3": {
+          "extractionInputUrls": [],
+          "scrapeSummaries": [],
+          "rawDistributorCount": 0,
+          "afterValidate": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer4": {
+          "enrichmentRuns": [],
+          "enrichmentSummaries": [],
+          "afterLayer4": {
+            "total": 0,
+            "withEmail": 0
+          }
+        },
+        "layer5": {
+          "triggered": false,
+          "seedUrls": []
+        },
+        "layer6": {},
+        "layer0": {
+          "normalizedPartNumber": "THERMAL TRANSFER PRODUCTS 100726262 COML HEATER THERMAL SSC-624-1.3-4-F",
+          "normalizedManufacturer": "THERMAL TRANSFER",
+          "manufacturerDomain": "",
+          "queryVariants": [
+            "\"THERMAL TRANSFER\" \"100726262\" authorized distributor email contact",
+            "\"100726262\" THERMAL TRANSFER buy reseller contact phone",
+            "site:octopart.com OR site:findchips.com \"100726262\" \"THERMAL TRANSFER\" distributor",
+            "THERMAL TRANSFER 100726262 distributor network"
+          ]
+        }
+      }
+    }
+  ]
+}

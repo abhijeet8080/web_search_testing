@@ -16,6 +16,18 @@ import { DISTRIBUTOR_SCHEMA } from "./types.js";
 
 export const MIN_DISTRIBUTORS_WITH_EMAIL = 3;
 
+const DEFAULT_AGENT_TIMEOUT_MS = 180_000;
+
+function withTimeout<T>(promise: Promise<T>, ms: number, label: string): Promise<T> {
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  const timeout = new Promise<never>((_, reject) => {
+    timer = setTimeout(() => reject(new Error(`${label} timed out after ${ms}ms`)), ms);
+  });
+  return Promise.race([promise, timeout]).finally(() => {
+    if (timer !== undefined) clearTimeout(timer);
+  }) as Promise<T>;
+}
+
 function buildAgentPrompt(input: NormalizedInput): string {
   const mfgUrl = input.manufacturerDomain
     ? `https://${input.manufacturerDomain}`
@@ -102,13 +114,20 @@ export async function runLayer5Agent(
       return { distributors: [], triggered: false };
     }
 
-    const result = await agentFn.call(firecrawl, {
-      prompt,
-      schema: DISTRIBUTOR_SCHEMA,
-      urls: urls.length > 0 ? urls : undefined,
-      model: "spark-1-mini",
-      maxCredits: 500,
-    });
+    const timeoutMs = Number(process.env.FIRECRAWL_AGENT_TIMEOUT_MS ?? String(DEFAULT_AGENT_TIMEOUT_MS));
+    const safeMs = Number.isFinite(timeoutMs) && timeoutMs > 0 ? timeoutMs : DEFAULT_AGENT_TIMEOUT_MS;
+
+    const result = await withTimeout(
+      agentFn.call(firecrawl, {
+        prompt,
+        schema: DISTRIBUTOR_SCHEMA,
+        urls: urls.length > 0 ? urls : undefined,
+        model: "spark-1-mini",
+        maxCredits: 500,
+      }),
+      safeMs,
+      "firecrawl.agent",
+    );
 
     const distributors = parseAgentResult(result);
     log("layer5", "Agent complete", {
